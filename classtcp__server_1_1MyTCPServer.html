@@ -108,9 +108,8 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>handleClientDisconnect
 <tr class="memitem:aa3637f53558fcce824d99bf7c8d63969"><td class="memItemLeft" align="right" valign="top"><a id="aa3637f53558fcce824d99bf7c8d63969"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>handleClientStateChange</b> (self, state)</td></tr>
 <tr class="separator:aa3637f53558fcce824d99bf7c8d63969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ae4ec40e637655ccc2872f47b3ff9e9"><td class="memItemLeft" align="right" valign="top"><a id="a0ae4ec40e637655ccc2872f47b3ff9e9"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>sendCommand</b> (self, str destination_ip, int code, str msg)</td></tr>
-<tr class="separator:a0ae4ec40e637655ccc2872f47b3ff9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b3c1f07dd9635c82ce4dc2e3065bbe"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a40b3c1f07dd9635c82ce4dc2e3065bbe">sendCommand</a> (self, str destination_ip, MessageCode code, str msg)</td></tr>
+<tr class="separator:a40b3c1f07dd9635c82ce4dc2e3065bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -120,6 +119,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad356a3d371e0236b3c0ee99bd5bdcbae"><td class="memItemLeft" align="right" valign="top"><a id="ad356a3d371e0236b3c0ee99bd5bdcbae"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>connected_socket_list</b></td></tr>
 <tr class="separator:ad356a3d371e0236b3c0ee99bd5bdcbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3242956af0582d36c9d4f866aa075550"><td class="memItemLeft" align="right" valign="top"><a id="a3242956af0582d36c9d4f866aa075550"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>connected_socket_dict</b></td></tr>
+<tr class="separator:a3242956af0582d36c9d4f866aa075550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bc8f32931783a0d5d538dda7311bed8"><td class="memItemLeft" align="right" valign="top"><a id="a7bc8f32931783a0d5d538dda7311bed8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>HOST</b></td></tr>
 <tr class="separator:a7bc8f32931783a0d5d538dda7311bed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,6 +134,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a94d0ea1879918ae3767ecbb3680d56bc"><td class="memItemLeft" align="right" valign="top"><a id="a94d0ea1879918ae3767ecbb3680d56bc"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>client_connected_signal</b> = pyqtSignal(object)</td></tr>
 <tr class="separator:a94d0ea1879918ae3767ecbb3680d56bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5914e9e095ad275b5d0d991e76ffbe4"><td class="memItemLeft" align="right" valign="top"><a id="ab5914e9e095ad275b5d0d991e76ffbe4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>client_disconnected_signal</b> = pyqtSignal(str)</td></tr>
+<tr class="separator:ab5914e9e095ad275b5d0d991e76ffbe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfb4c966f3a4bb77c252b9f7dbb4ec15"><td class="memItemLeft" align="right" valign="top"><a id="abfb4c966f3a4bb77c252b9f7dbb4ec15"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>log_signal</b> = pyqtSignal(object)</td></tr>
 <tr class="separator:abfb4c966f3a4bb77c252b9f7dbb4ec15"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,6 +158,47 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Handler for when a client sends a message
+</pre> 
+</div>
+</div>
+<a id="a40b3c1f07dd9635c82ce4dc2e3065bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40b3c1f07dd9635c82ce4dc2e3065bbe">&#9670;&nbsp;</a></span>sendCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def tcp_server.MyTCPServer.sendCommand </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str&#160;</td>
+          <td class="paramname"><em>destination_ip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MessageCode&#160;</td>
+          <td class="paramname"><em>code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str&#160;</td>
+          <td class="paramname"><em>msg</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">This method sends a command to a destination IP address.
 </pre> 
 </div>
 </div>

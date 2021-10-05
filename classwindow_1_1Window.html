@@ -70,6 +70,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classwindow_1_1Window-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">window.Window Class Reference</div>  </div>
@@ -107,9 +108,16 @@ None&#160;</td><td class="memItemRight" valign="bottom"><b>appendRowInSFPTable</
 <tr class="separator:a2037f389399dae197c0fd834b75bb34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a4fb8df4482a053115e34771e2961d7"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a7a4fb8df4482a053115e34771e2961d7">cloudplug_reprogram_button_handler</a> (self)</td></tr>
 <tr class="separator:a7a4fb8df4482a053115e34771e2961d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13fdfbe72cea1f1f1352c1af267458ab"><td class="memItemLeft" align="right" valign="top"><a id="a13fdfbe72cea1f1f1352c1af267458ab"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>handleClientMessage</b> (self, Tuple contents_ip_port_tuple)</td></tr>
-<tr class="separator:a13fdfbe72cea1f1f1352c1af267458ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2482abf44ed4ac3b4d6b4984be12e99e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a2482abf44ed4ac3b4d6b4984be12e99e">handleUdpClientMessage</a> (self, Tuple contents_ip_port_tuple)</td></tr>
+<tr class="separator:a2482abf44ed4ac3b4d6b4984be12e99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2704ac50565125940f770328c18ba77d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a2704ac50565125940f770328c18ba77d">clone_sfp_memory_button_handler</a> (self)</td></tr>
+<tr class="separator:a2704ac50565125940f770328c18ba77d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9e543e4d2ab78dcf9d9a379e3dae9b"><td class="memItemLeft" align="right" valign="top"><a id="a1c9e543e4d2ab78dcf9d9a379e3dae9b"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>tcpClientConnectHandler</b> (self, str data)</td></tr>
+<tr class="separator:a1c9e543e4d2ab78dcf9d9a379e3dae9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75da716c00435ca4b7915c966bc6a58a"><td class="memItemLeft" align="right" valign="top"><a id="a75da716c00435ca4b7915c966bc6a58a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>tcpClientDisconnectHandler</b> (self, str data)</td></tr>
+<tr class="separator:a75da716c00435ca4b7915c966bc6a58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb18d84507546baeab1fce10a5b16e5f"><td class="memItemLeft" align="right" valign="top"><a id="abb18d84507546baeab1fce10a5b16e5f"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>appendToDebugLog</b> (self, str text)</td></tr>
 <tr class="separator:abb18d84507546baeab1fce10a5b16e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,8 +136,34 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a67bc08382761d0ff0ceec819f7e7adb8"><td class="memItemLeft" align="right" valign="top"><a id="a67bc08382761d0ff0ceec819f7e7adb8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>db_connected</b></td></tr>
 <tr class="separator:a67bc08382761d0ff0ceec819f7e7adb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a01cd3398fba8c8312a36f1b726481b91"><td class="memItemLeft" align="right" valign="top"><a id="a01cd3398fba8c8312a36f1b726481b91"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>send_command_signal</b> = QtCore.pyqtSignal(object)</td></tr>
+<tr class="separator:a01cd3398fba8c8312a36f1b726481b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2704ac50565125940f770328c18ba77d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2704ac50565125940f770328c18ba77d">&#9670;&nbsp;</a></span>clone_sfp_memory_button_handler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def window.Window.clone_sfp_memory_button_handler </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Method that handles when the "Clone SFP Memory" button is
+clicked.
+</pre> 
+</div>
+</div>
 <a id="a7a4fb8df4482a053115e34771e2961d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a4fb8df4482a053115e34771e2961d7">&#9670;&nbsp;</a></span>cloudplug_reprogram_button_handler()</h2>
 
@@ -147,6 +181,35 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">User presses this button to reprogram the selected cloudplugs with
 a single selected SFP/SFP+ persona.
+</pre> 
+</div>
+</div>
+<a id="a2482abf44ed4ac3b4d6b4984be12e99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2482abf44ed4ac3b4d6b4984be12e99e">&#9670;&nbsp;</a></span>handleUdpClientMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def window.Window.handleUdpClientMessage </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Tuple&#160;</td>
+          <td class="paramname"><em>contents_ip_port_tuple</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Handles the message from a UDP client. 
 </pre> 
 </div>
 </div>

@@ -69,7 +69,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classnetwork__threads_1_1TcpServerThread-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -94,20 +93,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a80df543c907c4b636c37131b47b3d21c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnetwork__threads_1_1TcpServerThread.html#a80df543c907c4b636c37131b47b3d21c">run</a> (self)</td></tr>
 <tr class="memdesc:a80df543c907c4b636c37131b47b3d21c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts an infinite loop to handle TCP connections and message processing.  <a href="classnetwork__threads_1_1TcpServerThread.html#a80df543c907c4b636c37131b47b3d21c">More...</a><br /></td></tr>
 <tr class="separator:a80df543c907c4b636c37131b47b3d21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a028c3a37d9a421732a7a74039045919c"><td class="memItemLeft" align="right" valign="top">pyqtSignal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnetwork__threads_1_1TcpServerThread.html#a028c3a37d9a421732a7a74039045919c">emit_log</a> (self, str data)</td></tr>
-<tr class="separator:a028c3a37d9a421732a7a74039045919c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a22f2b1fe886d47a075f1795ba63da815"><td class="memItemLeft" align="right" valign="top"><a id="a22f2b1fe886d47a075f1795ba63da815"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>tcp_server</b></td></tr>
-<tr class="separator:a22f2b1fe886d47a075f1795ba63da815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7cbf9f451527522ae428691bb89ce1c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnetwork__threads_1_1TcpServerThread.html#aa7cbf9f451527522ae428691bb89ce1c">send_command_from_ui</a> (self, ip_msg_tuple)</td></tr>
+<tr class="separator:aa7cbf9f451527522ae428691bb89ce1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a3da7a7d3bc20c30116abf0677ba43136"><td class="memItemLeft" align="right" valign="top"><a id="a3da7a7d3bc20c30116abf0677ba43136"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>device_response</b> = pyqtSignal(object)</td></tr>
-<tr class="separator:a3da7a7d3bc20c30116abf0677ba43136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f2b1fe886d47a075f1795ba63da815"><td class="memItemLeft" align="right" valign="top"><a id="a22f2b1fe886d47a075f1795ba63da815"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>tcp_server</b> = MyTCPServer()</td></tr>
+<tr class="separator:a22f2b1fe886d47a075f1795ba63da815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed5192b960a8a0adedce3faf020fd64"><td class="memItemLeft" align="right" valign="top"><a id="a3ed5192b960a8a0adedce3faf020fd64"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>client_connected_signal</b> = pyqtSignal(object)</td></tr>
+<tr class="separator:a3ed5192b960a8a0adedce3faf020fd64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ffa6c0a8525d292271e6ee8313084fa"><td class="memItemLeft" align="right" valign="top"><a id="a4ffa6c0a8525d292271e6ee8313084fa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>client_disconnected_signal</b> = pyqtSignal(object)</td></tr>
+<tr class="separator:a4ffa6c0a8525d292271e6ee8313084fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8e1fb0052b65467685bb5f54368bb6a"><td class="memItemLeft" align="right" valign="top"><a id="ab8e1fb0052b65467685bb5f54368bb6a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>log_signal</b> = pyqtSignal(object)</td></tr>
 <tr class="separator:ab8e1fb0052b65467685bb5f54368bb6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,35 +115,6 @@ Static Public Attributes</h2></td></tr>
 <div class="textblock"><pre class="fragment">A thread that houses the TCP Server used to communicate with
 CloudPlugs and Docking Stations.
 </pre> </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a028c3a37d9a421732a7a74039045919c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a028c3a37d9a421732a7a74039045919c">&#9670;&nbsp;</a></span>emit_log()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> pyqtSignal network_threads.TcpServerThread.emit_log </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">str&#160;</td>
-          <td class="paramname"><em>data</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Emits a string of data as a pyqtSignal.
-</pre> 
-</div>
-</div>
 <a id="a80df543c907c4b636c37131b47b3d21c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80df543c907c4b636c37131b47b3d21c">&#9670;&nbsp;</a></span>run()</h2>
 
@@ -174,6 +144,40 @@ message processing.
   </dd>
 </dl>
 
+</div>
+</div>
+<a id="aa7cbf9f451527522ae428691bb89ce1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7cbf9f451527522ae428691bb89ce1c">&#9670;&nbsp;</a></span>send_command_from_ui()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def network_threads.TcpServerThread.send_command_from_ui </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>ip_msg_tuple</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">This function is used to send commands from the user interface.
+For example, when a user tries to read SFP memory, that user selects
+a docking station and then pressed the "Read SFP Memory" button.
+
+The event of clicking that button is connected to this function, which
+then calls the tcp_server::sendCommmand method
+</pre> 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
