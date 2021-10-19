@@ -4,11 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node18 [label="Enum",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
-  Node18 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node0 [label="memory_map_dialog.Memory\lMapDialog.DisplayType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmemory__map__dialog_1_1MemoryMapDialog_1_1DisplayType.html",tooltip=" "];
-  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node20 [label="message.MessageCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmessage_1_1MessageCode.html",tooltip=" "];
-  Node18 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node21 [label="sfp.SFP.CalibrationType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsfp_1_1SFP_1_1CalibrationType.html",tooltip=" "];
+  Node0 [label="MeasurementMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmessage_1_1MeasurementMessage.html",tooltip=" "];
 }
