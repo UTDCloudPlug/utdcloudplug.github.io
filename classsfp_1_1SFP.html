@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CloudPlug Control: SFP Class Reference</title>
+<title>CloudPlug Control: sfp.SFP Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,7 +63,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacesfp.html">sfp</a></li><li class="navelem"><a class="el" href="classsfp_1_1SFP.html">SFP</a></li>  </ul>
+<li class="navelem"><b>sfp</b></li><li class="navelem"><a class="el" href="classsfp_1_1SFP.html">SFP</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,7 +74,7 @@ $(function() {
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classsfp_1_1SFP-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SFP Class Reference</div>  </div>
+<div class="title">sfp.SFP Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
@@ -85,315 +85,211 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2ac18d1520ba5eb32efd96a12c0e54ad"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a2ac18d1520ba5eb32efd96a12c0e54ad">__init__</a> (self, List[int] <a class="el" href="classsfp_1_1SFP.html#ae0d43da0a2ae08745512bf8108a84819">page_a0</a>, List[int] <a class="el" href="classsfp_1_1SFP.html#a0d9d611847d8eb1db13f399d0bc1f8b2">page_a2</a>)</td></tr>
-<tr class="memdesc:a2ac18d1520ba5eb32efd96a12c0e54ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalizes the <a class="el" href="classsfp_1_1SFP.html">SFP</a> module.  <a href="classsfp_1_1SFP.html#a2ac18d1520ba5eb32efd96a12c0e54ad">More...</a><br /></td></tr>
-<tr class="separator:a2ac18d1520ba5eb32efd96a12c0e54ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e99ca03275f7b67b3167b900c5ff475"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a9e99ca03275f7b67b3167b900c5ff475">add_memory_page</a> (self, int page_code, List[int] page_values)</td></tr>
-<tr class="memdesc:a9e99ca03275f7b67b3167b900c5ff475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associates a hex value key with a list of integers that represent a memory page from SFP+ EEPROM.  <a href="classsfp_1_1SFP.html#a9e99ca03275f7b67b3167b900c5ff475">More...</a><br /></td></tr>
-<tr class="separator:a9e99ca03275f7b67b3167b900c5ff475"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af48a1be793f5d2bdd50989c57d445fec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#af48a1be793f5d2bdd50989c57d445fec">calculate_cc_base</a> (self)</td></tr>
-<tr class="separator:af48a1be793f5d2bdd50989c57d445fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac352b1e87bdbfd4b9ec4bc08b8686b2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ac352b1e87bdbfd4b9ec4bc08b8686b2d">calculate_cc_ext</a> (self)</td></tr>
-<tr class="separator:ac352b1e87bdbfd4b9ec4bc08b8686b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf455dcb25fdcdfbb2f9ca23300bc734"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#adf455dcb25fdcdfbb2f9ca23300bc734">calculate_pagea2_checksum</a> (self)</td></tr>
-<tr class="separator:adf455dcb25fdcdfbb2f9ca23300bc734"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1cab5cbab97e73e7fd84a0d39e5db9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa1cab5cbab97e73e7fd84a0d39e5db9c">calculate_rx_power_uw</a> (self)</td></tr>
-<tr class="memdesc:aa1cab5cbab97e73e7fd84a0d39e5db9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the receiver optical power in uW.  <a href="classsfp_1_1SFP.html#aa1cab5cbab97e73e7fd84a0d39e5db9c">More...</a><br /></td></tr>
-<tr class="separator:aa1cab5cbab97e73e7fd84a0d39e5db9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98ca5ea1567d354486eeb0cc564794f0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a98ca5ea1567d354486eeb0cc564794f0">get_bias_high_alarm</a> (self)</td></tr>
-<tr class="separator:a98ca5ea1567d354486eeb0cc564794f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30b957e98beb051bb0788c70664ccf22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a30b957e98beb051bb0788c70664ccf22">get_bias_high_warning</a> (self)</td></tr>
-<tr class="separator:a30b957e98beb051bb0788c70664ccf22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e3fbeb4f734a48e3a181fd478c7dd8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae7e3fbeb4f734a48e3a181fd478c7dd8">get_bias_low_alarm</a> (self)</td></tr>
-<tr class="separator:ae7e3fbeb4f734a48e3a181fd478c7dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7735a29f2c750fd6f5b447e42a4fc52f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a7735a29f2c750fd6f5b447e42a4fc52f">get_bias_low_warning</a> (self)</td></tr>
-<tr class="separator:a7735a29f2c750fd6f5b447e42a4fc52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eca119c1f52c405a229419ca32e106a"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a4eca119c1f52c405a229419ca32e106a">get_cc_base</a> (self)</td></tr>
-<tr class="separator:a4eca119c1f52c405a229419ca32e106a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba4e5d1a6c9a6440a472787166f34c9c"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aba4e5d1a6c9a6440a472787166f34c9c">get_cc_ext</a> (self)</td></tr>
-<tr class="separator:aba4e5d1a6c9a6440a472787166f34c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24df0ce21846ca47aa1f20cae55cb907"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a24df0ce21846ca47aa1f20cae55cb907">get_connector_type</a> (self)</td></tr>
-<tr class="separator:a24df0ce21846ca47aa1f20cae55cb907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9001da3a09319409cae1a598e35e99a5"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a9001da3a09319409cae1a598e35e99a5">get_diagnostic_monitoring_type</a> (self)</td></tr>
-<tr class="separator:a9001da3a09319409cae1a598e35e99a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a446dd4212d9c6a309b61a11c28375ff9"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a446dd4212d9c6a309b61a11c28375ff9">get_encoding</a> (self)</td></tr>
-<tr class="separator:a446dd4212d9c6a309b61a11c28375ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03cc904d2df5426e3749dc64b2229ce4"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a03cc904d2df5426e3749dc64b2229ce4">get_enhanced_options</a> (self)</td></tr>
-<tr class="separator:a03cc904d2df5426e3749dc64b2229ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8789b46d7513aff02d116882eda2c5f8"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a8789b46d7513aff02d116882eda2c5f8">get_ext_identifier</a> (self)</td></tr>
-<tr class="separator:a8789b46d7513aff02d116882eda2c5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a126a8fd19e75a39b13b36ddf33239c8a"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a126a8fd19e75a39b13b36ddf33239c8a">get_fibre_channel_speed2</a> (self)</td></tr>
-<tr class="separator:a126a8fd19e75a39b13b36ddf33239c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5b4ee4ea770c92fd790aaa44eaefa31"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa5b4ee4ea770c92fd790aaa44eaefa31">get_identifier</a> (self)</td></tr>
-<tr class="separator:aa5b4ee4ea770c92fd790aaa44eaefa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1076ae738c5c12c37bad4dff2d65cbd3"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a1076ae738c5c12c37bad4dff2d65cbd3">get_max_signaling_rate_margin</a> (self)</td></tr>
-<tr class="separator:a1076ae738c5c12c37bad4dff2d65cbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6ace33c02fe65e0c2a554ec82125b60"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ac6ace33c02fe65e0c2a554ec82125b60">get_min_signaling_rate_margin</a> (self)</td></tr>
-<tr class="separator:ac6ace33c02fe65e0c2a554ec82125b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acae2ed10648f12e2c51082b091a42e4a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#acae2ed10648f12e2c51082b091a42e4a">get_om1_link_length</a> (self)</td></tr>
-<tr class="separator:acae2ed10648f12e2c51082b091a42e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c8c88c95fc155722e86a07ea79221c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a5c8c88c95fc155722e86a07ea79221c7">get_om2_link_length</a> (self)</td></tr>
-<tr class="separator:a5c8c88c95fc155722e86a07ea79221c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae4aae4d25fc1b7cff105028a18b6740"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aae4aae4d25fc1b7cff105028a18b6740">get_om3_link_length</a> (self)</td></tr>
-<tr class="separator:aae4aae4d25fc1b7cff105028a18b6740"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf4de138e1c9ef24d24ac03ff5172876"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#abf4de138e1c9ef24d24ac03ff5172876">get_om4_link_length</a> (self)</td></tr>
-<tr class="separator:abf4de138e1c9ef24d24ac03ff5172876"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59d0aaf7f70555e061249768112e9649"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a59d0aaf7f70555e061249768112e9649">get_optional_laser_temp_high_alarm</a> (self)</td></tr>
-<tr class="separator:a59d0aaf7f70555e061249768112e9649"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a686fdc88dcfc24e9376f2f82f63dadd8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a686fdc88dcfc24e9376f2f82f63dadd8">get_optional_laser_temp_high_warning</a> (self)</td></tr>
-<tr class="separator:a686fdc88dcfc24e9376f2f82f63dadd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac25eb8e786d2aa19e231776f9787a9a0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ac25eb8e786d2aa19e231776f9787a9a0">get_optional_laser_temp_low_alarm</a> (self)</td></tr>
-<tr class="separator:ac25eb8e786d2aa19e231776f9787a9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02bc7ef233d648cfcab5329dbdc49a90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a02bc7ef233d648cfcab5329dbdc49a90">get_optional_laser_temp_low_warning</a> (self)</td></tr>
-<tr class="separator:a02bc7ef233d648cfcab5329dbdc49a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbb55b437f50914b1e1f0af2f9466279"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#acbb55b437f50914b1e1f0af2f9466279">get_optional_tec_current_high_alarm</a> (self)</td></tr>
-<tr class="separator:acbb55b437f50914b1e1f0af2f9466279"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeb7e9e71311f58d4919409085315742"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aaeb7e9e71311f58d4919409085315742">get_optional_tec_current_high_warning</a> (self)</td></tr>
-<tr class="separator:aaeb7e9e71311f58d4919409085315742"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55b13ed431ba8e37da210ab52be930c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a55b13ed431ba8e37da210ab52be930c5">get_optional_tec_current_low_alarm</a> (self)</td></tr>
-<tr class="separator:a55b13ed431ba8e37da210ab52be930c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2600b2970d06d1922c84e2cb6207aa1e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a2600b2970d06d1922c84e2cb6207aa1e">get_optional_tec_current_low_warning</a> (self)</td></tr>
-<tr class="separator:a2600b2970d06d1922c84e2cb6207aa1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d040a41f3b6dae806e0d9ce879220ef"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a4d040a41f3b6dae806e0d9ce879220ef">get_optional_tr_signals</a> (self)</td></tr>
-<tr class="separator:a4d040a41f3b6dae806e0d9ce879220ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57ef770184e58daeedfe996f185df843"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a57ef770184e58daeedfe996f185df843">get_page</a> (self, int page_number)</td></tr>
-<tr class="memdesc:a57ef770184e58daeedfe996f185df843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the requested page number from the memory pages dictionary.  <a href="classsfp_1_1SFP.html#a57ef770184e58daeedfe996f185df843">More...</a><br /></td></tr>
-<tr class="separator:a57ef770184e58daeedfe996f185df843"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83625094c8223d3e9ea98b72fba40798"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a83625094c8223d3e9ea98b72fba40798">get_page_a0</a> (self)</td></tr>
-<tr class="separator:a83625094c8223d3e9ea98b72fba40798"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae75e66bf9b2d6f4e19ff6fe276268ee9"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae75e66bf9b2d6f4e19ff6fe276268ee9">get_page_a2</a> (self)</td></tr>
-<tr class="separator:ae75e66bf9b2d6f4e19ff6fe276268ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7021b145126b75860290d7d99cea2d10"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a7021b145126b75860290d7d99cea2d10">get_pagea2_checksum</a> (self)</td></tr>
-<tr class="separator:a7021b145126b75860290d7d99cea2d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a9a0f29fc3485010dcfe2a0d534c3c9"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a4a9a0f29fc3485010dcfe2a0d534c3c9">get_rate_identifier</a> (self)</td></tr>
-<tr class="separator:a4a9a0f29fc3485010dcfe2a0d534c3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17486be87f074980378badda2046cb71"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a17486be87f074980378badda2046cb71">get_reserved_a2_bytes</a> (self)</td></tr>
-<tr class="separator:a17486be87f074980378badda2046cb71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae815b348a6805c5432d40ad14e6781c6"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae815b348a6805c5432d40ad14e6781c6">get_reserved_fields</a> (self)</td></tr>
-<tr class="separator:ae815b348a6805c5432d40ad14e6781c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfc8011f529df3f5b96375945386b2c9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#abfc8011f529df3f5b96375945386b2c9">get_rx_power</a> (self)</td></tr>
-<tr class="separator:abfc8011f529df3f5b96375945386b2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37dc7d95c17c68ab9a085ab252ed3e69"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a37dc7d95c17c68ab9a085ab252ed3e69">get_rx_power_high_alarm</a> (self)</td></tr>
-<tr class="separator:a37dc7d95c17c68ab9a085ab252ed3e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ccd8a265dd7417ce34737b3f2969d68"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a5ccd8a265dd7417ce34737b3f2969d68">get_rx_power_high_warning</a> (self)</td></tr>
-<tr class="separator:a5ccd8a265dd7417ce34737b3f2969d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c7114eff650e26c03a1306b99d6a923"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a3c7114eff650e26c03a1306b99d6a923">get_rx_power_low_alarm</a> (self)</td></tr>
-<tr class="separator:a3c7114eff650e26c03a1306b99d6a923"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac60cd60dce0b11b34dda74590d184dc5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ac60cd60dce0b11b34dda74590d184dc5">get_rx_power_low_warning</a> (self)</td></tr>
-<tr class="separator:ac60cd60dce0b11b34dda74590d184dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26ca34727f4247e3f44c559031f4fd7b"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a26ca34727f4247e3f44c559031f4fd7b">get_sff_8472_compliance</a> (self)</td></tr>
-<tr class="separator:a26ca34727f4247e3f44c559031f4fd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f98f8c621375709055b735498cf5e3a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a4f98f8c621375709055b735498cf5e3a">get_signaling_rate_nominal</a> (self)</td></tr>
-<tr class="separator:a4f98f8c621375709055b735498cf5e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220d92511200573174d7a7a4765b2907"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a220d92511200573174d7a7a4765b2907">get_smf_km_link_length</a> (self)</td></tr>
-<tr class="separator:a220d92511200573174d7a7a4765b2907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af23f6af72591659bc4eba939a6a90f13"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#af23f6af72591659bc4eba939a6a90f13">get_smf_link_length</a> (self)</td></tr>
-<tr class="separator:af23f6af72591659bc4eba939a6a90f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4a25ceb73e76514c944eb10bfd9734a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ad4a25ceb73e76514c944eb10bfd9734a">get_temp_high_alarm</a> (self)</td></tr>
-<tr class="separator:ad4a25ceb73e76514c944eb10bfd9734a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1593be4004af46bc0e5f2d5ab8efe3c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a1593be4004af46bc0e5f2d5ab8efe3c2">get_temp_high_warning</a> (self)</td></tr>
-<tr class="separator:a1593be4004af46bc0e5f2d5ab8efe3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af31aa683359d627d08bf5aa8063b742f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#af31aa683359d627d08bf5aa8063b742f">get_temp_low_alarm</a> (self)</td></tr>
-<tr class="separator:af31aa683359d627d08bf5aa8063b742f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3453cefc64ac5f425e32eec2192cb85d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a3453cefc64ac5f425e32eec2192cb85d">get_temp_low_warning</a> (self)</td></tr>
-<tr class="separator:a3453cefc64ac5f425e32eec2192cb85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46295be135ab67d2024d1a81e3e02ae1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a46295be135ab67d2024d1a81e3e02ae1">get_temp_offset</a> (self)</td></tr>
-<tr class="separator:a46295be135ab67d2024d1a81e3e02ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a880cdd164fa586ce3e65a60e0eacdbc7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a880cdd164fa586ce3e65a60e0eacdbc7">get_temp_slope</a> (self)</td></tr>
-<tr class="separator:a880cdd164fa586ce3e65a60e0eacdbc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c59102d392fb4779e04622ccc7e99b3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a2c59102d392fb4779e04622ccc7e99b3">get_temperature</a> (self)</td></tr>
-<tr class="separator:a2c59102d392fb4779e04622ccc7e99b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b370b516d6f137c9b4dd59438e97b2e"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a4b370b516d6f137c9b4dd59438e97b2e">get_transceiver2</a> (self)</td></tr>
-<tr class="separator:a4b370b516d6f137c9b4dd59438e97b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a501bf67ada7a5a5c295a83e1d82d0892"><td class="memItemLeft" align="right" valign="top">List[str]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a501bf67ada7a5a5c295a83e1d82d0892">get_transceiver_info</a> (self)</td></tr>
-<tr class="separator:a501bf67ada7a5a5c295a83e1d82d0892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a205aa16c044ef797d348b51340a1c78f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a205aa16c044ef797d348b51340a1c78f">get_tx_bias_current</a> (self)</td></tr>
-<tr class="separator:a205aa16c044ef797d348b51340a1c78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7615d350c89aac9f8b2c62133c842401"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a7615d350c89aac9f8b2c62133c842401">get_tx_i_offset</a> (self)</td></tr>
-<tr class="separator:a7615d350c89aac9f8b2c62133c842401"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32deab1b0ad2a32d2080cb4dc13d1bc9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a32deab1b0ad2a32d2080cb4dc13d1bc9">get_tx_i_slope</a> (self)</td></tr>
-<tr class="memdesc:a32deab1b0ad2a32d2080cb4dc13d1bc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the slope for the transmitter current.  <a href="classsfp_1_1SFP.html#a32deab1b0ad2a32d2080cb4dc13d1bc9">More...</a><br /></td></tr>
-<tr class="separator:a32deab1b0ad2a32d2080cb4dc13d1bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4f9affc8738fe90d8c519c54608548d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa4f9affc8738fe90d8c519c54608548d">get_tx_power</a> (self)</td></tr>
-<tr class="separator:aa4f9affc8738fe90d8c519c54608548d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12941801f62e3868203fc88a26b8fd9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a12941801f62e3868203fc88a26b8fd9e">get_tx_power_high_alarm</a> (self)</td></tr>
-<tr class="separator:a12941801f62e3868203fc88a26b8fd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae677005d48e6208534fd32fb5a3a6e13"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae677005d48e6208534fd32fb5a3a6e13">get_tx_power_high_warning</a> (self)</td></tr>
-<tr class="separator:ae677005d48e6208534fd32fb5a3a6e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a811e267b2dddcbcf8dd68354c27bd686"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a811e267b2dddcbcf8dd68354c27bd686">get_tx_power_low_alarm</a> (self)</td></tr>
-<tr class="separator:a811e267b2dddcbcf8dd68354c27bd686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd8804fa79790cc54c66ae932db168f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#afd8804fa79790cc54c66ae932db168f6">get_tx_power_low_warning</a> (self)</td></tr>
-<tr class="separator:afd8804fa79790cc54c66ae932db168f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cae0f3504b72b2b9b35211bb83f6f29"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a2cae0f3504b72b2b9b35211bb83f6f29">get_tx_pwr_offset</a> (self)</td></tr>
-<tr class="separator:a2cae0f3504b72b2b9b35211bb83f6f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2444bc2ed4eac7e89ec0eafb82e42f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ac2444bc2ed4eac7e89ec0eafb82e42f9">get_tx_pwr_slope</a> (self)</td></tr>
-<tr class="separator:ac2444bc2ed4eac7e89ec0eafb82e42f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bae5d582a040aff1fc424dc57410c9d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a9bae5d582a040aff1fc424dc57410c9d">get_vcc</a> (self)</td></tr>
-<tr class="separator:a9bae5d582a040aff1fc424dc57410c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbe95a6cb3e97115fe5c4da1e3963344"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#abbe95a6cb3e97115fe5c4da1e3963344">get_vendor_date_code</a> (self)</td></tr>
-<tr class="separator:abbe95a6cb3e97115fe5c4da1e3963344"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a653f0b8a59ea6aae46aa2ce9ab67d41d"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a653f0b8a59ea6aae46aa2ce9ab67d41d">get_vendor_eeprom</a> (self)</td></tr>
-<tr class="separator:a653f0b8a59ea6aae46aa2ce9ab67d41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c0a4620ddd0e55306c8700fcb3a16d0"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a8c0a4620ddd0e55306c8700fcb3a16d0">get_vendor_name</a> (self)</td></tr>
-<tr class="separator:a8c0a4620ddd0e55306c8700fcb3a16d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac144ac1d47d3c591c1e63a8e4a3f8a80"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ac144ac1d47d3c591c1e63a8e4a3f8a80">get_vendor_oui</a> (self)</td></tr>
-<tr class="separator:ac144ac1d47d3c591c1e63a8e4a3f8a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8f959c1a9591097ce3cecf3e2a68c3f"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#af8f959c1a9591097ce3cecf3e2a68c3f">get_vendor_part_number</a> (self)</td></tr>
-<tr class="separator:af8f959c1a9591097ce3cecf3e2a68c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fca70eff027cbb7582bf3adedd11250"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a0fca70eff027cbb7582bf3adedd11250">get_vendor_revision_level</a> (self)</td></tr>
-<tr class="separator:a0fca70eff027cbb7582bf3adedd11250"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98317ad8d2b24fbac1fe40f12076d7c6"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a98317ad8d2b24fbac1fe40f12076d7c6">get_vendor_serial_number</a> (self)</td></tr>
-<tr class="separator:a98317ad8d2b24fbac1fe40f12076d7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3456f063bad2c1c865e9923fbb865850"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a3456f063bad2c1c865e9923fbb865850">get_voltage_high_alarm</a> (self)</td></tr>
-<tr class="separator:a3456f063bad2c1c865e9923fbb865850"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2baed0178fa149dc7f02997aae62af5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#af2baed0178fa149dc7f02997aae62af5">get_voltage_high_warning</a> (self)</td></tr>
-<tr class="separator:af2baed0178fa149dc7f02997aae62af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa57ea1485d992333266c8e45338d5b08"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa57ea1485d992333266c8e45338d5b08">get_voltage_low_alarm</a> (self)</td></tr>
-<tr class="separator:aa57ea1485d992333266c8e45338d5b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40dbd172bf67fad5f0eb125e08c76227"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a40dbd172bf67fad5f0eb125e08c76227">get_voltage_low_warning</a> (self)</td></tr>
-<tr class="separator:a40dbd172bf67fad5f0eb125e08c76227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a529e1a633c90cf96483053fd5890ed40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a529e1a633c90cf96483053fd5890ed40">get_voltage_offset</a> (self)</td></tr>
-<tr class="separator:a529e1a633c90cf96483053fd5890ed40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a4266ad0aae708d45fb49f5e926220b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a3a4266ad0aae708d45fb49f5e926220b">get_voltage_slope</a> (self)</td></tr>
-<tr class="separator:a3a4266ad0aae708d45fb49f5e926220b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66f0541ae15efae3fbcd98e7ca416791"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a66f0541ae15efae3fbcd98e7ca416791">get_wavelength</a> (self)</td></tr>
-<tr class="separator:a66f0541ae15efae3fbcd98e7ca416791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a78e2e45566e84555f29beaf5bb2e3b"><td class="memItemLeft" align="right" valign="top"><a id="a2a78e2e45566e84555f29beaf5bb2e3b"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, List[int] page_a0, List[int] page_a2)</td></tr>
+<tr class="separator:a2a78e2e45566e84555f29beaf5bb2e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a948d91c6a8e28fe8fe3a329a774f24cb"><td class="memItemLeft" align="right" valign="top"><a id="a948d91c6a8e28fe8fe3a329a774f24cb"></a>
+None&#160;</td><td class="memItemRight" valign="bottom"><b>add_memory_page</b> (self, int page_code, List[int] page_values)</td></tr>
+<tr class="separator:a948d91c6a8e28fe8fe3a329a774f24cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac51cfe61382929f15d9f1c0bcba8601c"><td class="memItemLeft" align="right" valign="top"><a id="ac51cfe61382929f15d9f1c0bcba8601c"></a>
+List[int]&#160;</td><td class="memItemRight" valign="bottom"><b>get_page</b> (self, int page_number)</td></tr>
+<tr class="separator:ac51cfe61382929f15d9f1c0bcba8601c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad458a7b70b564a261ceb005e25820e9f"><td class="memItemLeft" align="right" valign="top"><a id="ad458a7b70b564a261ceb005e25820e9f"></a>
+List[int]&#160;</td><td class="memItemRight" valign="bottom"><b>get_page_a0</b> (self)</td></tr>
+<tr class="separator:ad458a7b70b564a261ceb005e25820e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4776e22d91c90bf8dbab8e9937aaabfe"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a4776e22d91c90bf8dbab8e9937aaabfe">get_identifier</a> (self)</td></tr>
+<tr class="separator:a4776e22d91c90bf8dbab8e9937aaabfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d506743f9f41708be160ffb550ef167"><td class="memItemLeft" align="right" valign="top"><a id="a0d506743f9f41708be160ffb550ef167"></a>
+str&#160;</td><td class="memItemRight" valign="bottom"><b>get_ext_identifier</b> (self)</td></tr>
+<tr class="separator:a0d506743f9f41708be160ffb550ef167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a673ddcbf6351146ace684ba9d420df49"><td class="memItemLeft" align="right" valign="top"><a id="a673ddcbf6351146ace684ba9d420df49"></a>
+str&#160;</td><td class="memItemRight" valign="bottom"><b>get_connector_type</b> (self)</td></tr>
+<tr class="separator:a673ddcbf6351146ace684ba9d420df49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a344b010db19c78d9570f8ae6fd67d6e7"><td class="memItemLeft" align="right" valign="top">List[str]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a344b010db19c78d9570f8ae6fd67d6e7">get_transceiver_info</a> (self)</td></tr>
+<tr class="separator:a344b010db19c78d9570f8ae6fd67d6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af47f2b6518d2dd833d372bb9d97d6d98"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#af47f2b6518d2dd833d372bb9d97d6d98">get_encoding</a> (self)</td></tr>
+<tr class="separator:af47f2b6518d2dd833d372bb9d97d6d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07eea8deed379bf56a2866fec7d6a468"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a07eea8deed379bf56a2866fec7d6a468">get_signaling_rate_nominal</a> (self)</td></tr>
+<tr class="separator:a07eea8deed379bf56a2866fec7d6a468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1778656bddb21b2e94617c0c9564c7ac"><td class="memItemLeft" align="right" valign="top"><a id="a1778656bddb21b2e94617c0c9564c7ac"></a>
+str&#160;</td><td class="memItemRight" valign="bottom"><b>get_rate_identifier</b> (self)</td></tr>
+<tr class="separator:a1778656bddb21b2e94617c0c9564c7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addb997c295249c5dfd164081e6b20427"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#addb997c295249c5dfd164081e6b20427">get_smf_link_length</a> (self)</td></tr>
+<tr class="separator:addb997c295249c5dfd164081e6b20427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17d8ccbcb773f80f3355805438cddf6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa17d8ccbcb773f80f3355805438cddf6">get_om2_link_length</a> (self)</td></tr>
+<tr class="separator:aa17d8ccbcb773f80f3355805438cddf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec55b93f86fb2fd4ad71192ca1f64ea3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aec55b93f86fb2fd4ad71192ca1f64ea3">get_om1_link_length</a> (self)</td></tr>
+<tr class="separator:aec55b93f86fb2fd4ad71192ca1f64ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86d6b064950151969d529ff1585b532"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae86d6b064950151969d529ff1585b532">get_om4_link_length</a> (self)</td></tr>
+<tr class="separator:ae86d6b064950151969d529ff1585b532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa98a8f1faa0da3ffa9ddf1ec3f936642"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa98a8f1faa0da3ffa9ddf1ec3f936642">get_om3_link_length</a> (self)</td></tr>
+<tr class="separator:aa98a8f1faa0da3ffa9ddf1ec3f936642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaeed72528ee16cd202455b75a2481ae"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aaaeed72528ee16cd202455b75a2481ae">get_vendor_name</a> (self)</td></tr>
+<tr class="separator:aaaeed72528ee16cd202455b75a2481ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbd17436b43a8419b61d551cb8298d4f"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#afbd17436b43a8419b61d551cb8298d4f">get_transceiver2</a> (self)</td></tr>
+<tr class="separator:afbd17436b43a8419b61d551cb8298d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2a1ac8473788f323b4cee46328dff3"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a1c2a1ac8473788f323b4cee46328dff3">get_vendor_oui</a> (self)</td></tr>
+<tr class="separator:a1c2a1ac8473788f323b4cee46328dff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc42bf17911f5d0216fcb9900703be1"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a7dc42bf17911f5d0216fcb9900703be1">get_vendor_part_number</a> (self)</td></tr>
+<tr class="separator:a7dc42bf17911f5d0216fcb9900703be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593047f7449b2ffb4812f5bff075c878"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a593047f7449b2ffb4812f5bff075c878">get_vendor_revision_level</a> (self)</td></tr>
+<tr class="separator:a593047f7449b2ffb4812f5bff075c878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8565b51bb8b953dff27b70bf8211fc11"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a8565b51bb8b953dff27b70bf8211fc11">get_wavelength</a> (self)</td></tr>
+<tr class="separator:a8565b51bb8b953dff27b70bf8211fc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb85d053ac433c87336bf4e00c46b40"><td class="memItemLeft" align="right" valign="top"><a id="a5bb85d053ac433c87336bf4e00c46b40"></a>
+str&#160;</td><td class="memItemRight" valign="bottom"><b>get_fibre_channel_speed2</b> (self)</td></tr>
+<tr class="separator:a5bb85d053ac433c87336bf4e00c46b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9de43eb58505f032067922c84206f492"><td class="memItemLeft" align="right" valign="top"><a id="a9de43eb58505f032067922c84206f492"></a>
+str&#160;</td><td class="memItemRight" valign="bottom"><b>get_cc_base</b> (self)</td></tr>
+<tr class="separator:a9de43eb58505f032067922c84206f492"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60292eb97d5860870a428b69494523fc"><td class="memItemLeft" align="right" valign="top"><a id="a60292eb97d5860870a428b69494523fc"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>calculate_cc_base</b> (self)</td></tr>
+<tr class="separator:a60292eb97d5860870a428b69494523fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad966c5b9e0f606c2d51933a9d6686810"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ad966c5b9e0f606c2d51933a9d6686810">get_optional_tr_signals</a> (self)</td></tr>
+<tr class="separator:ad966c5b9e0f606c2d51933a9d6686810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f808c5e493c80df681d258c68efb8a"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a58f808c5e493c80df681d258c68efb8a">get_max_signaling_rate_margin</a> (self)</td></tr>
+<tr class="separator:a58f808c5e493c80df681d258c68efb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2a27c6290bf95911716eb6650001500"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ad2a27c6290bf95911716eb6650001500">get_min_signaling_rate_margin</a> (self)</td></tr>
+<tr class="separator:ad2a27c6290bf95911716eb6650001500"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15d5fc5d01dbc2f19cb865b3193c599f"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a15d5fc5d01dbc2f19cb865b3193c599f">get_vendor_serial_number</a> (self)</td></tr>
+<tr class="separator:a15d5fc5d01dbc2f19cb865b3193c599f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd60c9fb527a65659b4dc3d1303b1995"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#abd60c9fb527a65659b4dc3d1303b1995">get_vendor_date_code</a> (self)</td></tr>
+<tr class="separator:abd60c9fb527a65659b4dc3d1303b1995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1340c199f1eef3ea0fb6e514569f068"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa1340c199f1eef3ea0fb6e514569f068">get_diagnostic_monitoring_type</a> (self)</td></tr>
+<tr class="separator:aa1340c199f1eef3ea0fb6e514569f068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac151fd3f2242fb6ff8333f5f627036a"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aac151fd3f2242fb6ff8333f5f627036a">get_enhanced_options</a> (self)</td></tr>
+<tr class="separator:aac151fd3f2242fb6ff8333f5f627036a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e57ca02961c37c76ce72cf242f3762"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ac7e57ca02961c37c76ce72cf242f3762">get_sff_8472_compliance</a> (self)</td></tr>
+<tr class="separator:ac7e57ca02961c37c76ce72cf242f3762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aceaf342ba893ec96321943afbcc751"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a4aceaf342ba893ec96321943afbcc751">get_cc_ext</a> (self)</td></tr>
+<tr class="separator:a4aceaf342ba893ec96321943afbcc751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1914f23369b2c1a285d64e0226108c52"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a1914f23369b2c1a285d64e0226108c52">calculate_cc_ext</a> (self)</td></tr>
+<tr class="separator:a1914f23369b2c1a285d64e0226108c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad96b0b611b5b3e58e73ac6a227b6e71a"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ad96b0b611b5b3e58e73ac6a227b6e71a">get_vendor_eeprom</a> (self)</td></tr>
+<tr class="separator:ad96b0b611b5b3e58e73ac6a227b6e71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebdd57356ff0372b845d06b10bbcc312"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aebdd57356ff0372b845d06b10bbcc312">get_reserved_fields</a> (self)</td></tr>
+<tr class="separator:aebdd57356ff0372b845d06b10bbcc312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050283fe3d6275a2fa28a7d7dfc10268"><td class="memItemLeft" align="right" valign="top"><a id="a050283fe3d6275a2fa28a7d7dfc10268"></a>
+List[int]&#160;</td><td class="memItemRight" valign="bottom"><b>get_page_a2</b> (self)</td></tr>
+<tr class="separator:a050283fe3d6275a2fa28a7d7dfc10268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3729a8b97f21c40402900aa5fe4b59b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa3729a8b97f21c40402900aa5fe4b59b">get_temp_high_alarm</a> (self)</td></tr>
+<tr class="separator:aa3729a8b97f21c40402900aa5fe4b59b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7b22587d0345eca81c52c060e08658"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a9e7b22587d0345eca81c52c060e08658">get_temp_low_alarm</a> (self)</td></tr>
+<tr class="separator:a9e7b22587d0345eca81c52c060e08658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa20d5961095eae39c0905da23357318"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#afa20d5961095eae39c0905da23357318">get_temp_high_warning</a> (self)</td></tr>
+<tr class="separator:afa20d5961095eae39c0905da23357318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada36c381d1adcdcc6c06c7c992e80477"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ada36c381d1adcdcc6c06c7c992e80477">get_temp_low_warning</a> (self)</td></tr>
+<tr class="separator:ada36c381d1adcdcc6c06c7c992e80477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54f2139f9f44f358a8b64d14e6df276"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa54f2139f9f44f358a8b64d14e6df276">get_voltage_high_alarm</a> (self)</td></tr>
+<tr class="separator:aa54f2139f9f44f358a8b64d14e6df276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30dedcc3a085350dc0a98371fb5ec0a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa30dedcc3a085350dc0a98371fb5ec0a">get_voltage_low_alarm</a> (self)</td></tr>
+<tr class="separator:aa30dedcc3a085350dc0a98371fb5ec0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86f87c1328dbc2d91c3a2d484b95a5ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a86f87c1328dbc2d91c3a2d484b95a5ab">get_voltage_high_warning</a> (self)</td></tr>
+<tr class="separator:a86f87c1328dbc2d91c3a2d484b95a5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae21edaa56bf7fe850c96483da93820ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae21edaa56bf7fe850c96483da93820ca">get_voltage_low_warning</a> (self)</td></tr>
+<tr class="separator:ae21edaa56bf7fe850c96483da93820ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40509a6ef4b0dbc251756e1ac8973c4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a40509a6ef4b0dbc251756e1ac8973c4d">get_bias_high_alarm</a> (self)</td></tr>
+<tr class="separator:a40509a6ef4b0dbc251756e1ac8973c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af98cecb86a2bad72d1e09b5ef476008f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#af98cecb86a2bad72d1e09b5ef476008f">get_bias_low_alarm</a> (self)</td></tr>
+<tr class="separator:af98cecb86a2bad72d1e09b5ef476008f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6925db33d57b4fc3a27531af910816e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a6925db33d57b4fc3a27531af910816e5">get_bias_high_warning</a> (self)</td></tr>
+<tr class="separator:a6925db33d57b4fc3a27531af910816e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84817417beb155bde5da694ef091c1a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a84817417beb155bde5da694ef091c1a5">get_bias_low_warning</a> (self)</td></tr>
+<tr class="separator:a84817417beb155bde5da694ef091c1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb619182d278767cded07ac65ae8987b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#abb619182d278767cded07ac65ae8987b">get_tx_power_high_alarm</a> (self)</td></tr>
+<tr class="separator:abb619182d278767cded07ac65ae8987b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7411b0ea1d4aa0173e9b654b8cb6935c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a7411b0ea1d4aa0173e9b654b8cb6935c">get_tx_power_low_alarm</a> (self)</td></tr>
+<tr class="separator:a7411b0ea1d4aa0173e9b654b8cb6935c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23af1767f0df0f6da1d4a997f4bad70"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae23af1767f0df0f6da1d4a997f4bad70">get_tx_power_high_warning</a> (self)</td></tr>
+<tr class="separator:ae23af1767f0df0f6da1d4a997f4bad70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5895aa0bdd9006d1fce8baee51d9f61d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a5895aa0bdd9006d1fce8baee51d9f61d">get_tx_power_low_warning</a> (self)</td></tr>
+<tr class="separator:a5895aa0bdd9006d1fce8baee51d9f61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f2865b6e444edd9b3942898e9a46ced"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a1f2865b6e444edd9b3942898e9a46ced">get_rx_power_high_alarm</a> (self)</td></tr>
+<tr class="separator:a1f2865b6e444edd9b3942898e9a46ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f3148ae7964f4f454e3ed5be40c7a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aa7f3148ae7964f4f454e3ed5be40c7a2">get_rx_power_low_alarm</a> (self)</td></tr>
+<tr class="separator:aa7f3148ae7964f4f454e3ed5be40c7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb44dc06fa17ba8afc92bf9b0612b5a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#adb44dc06fa17ba8afc92bf9b0612b5a5">get_rx_power_high_warning</a> (self)</td></tr>
+<tr class="separator:adb44dc06fa17ba8afc92bf9b0612b5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62919adffe535dad6f507d915b0d7b59"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a62919adffe535dad6f507d915b0d7b59">get_rx_power_low_warning</a> (self)</td></tr>
+<tr class="separator:a62919adffe535dad6f507d915b0d7b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1fc5c4d39d8055207cc09dc68f90148"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ac1fc5c4d39d8055207cc09dc68f90148">get_optional_laser_temp_high_alarm</a> (self)</td></tr>
+<tr class="separator:ac1fc5c4d39d8055207cc09dc68f90148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7c221657bd1eb0a7da8ba86af9bb9ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae7c221657bd1eb0a7da8ba86af9bb9ea">get_optional_laser_temp_low_alarm</a> (self)</td></tr>
+<tr class="separator:ae7c221657bd1eb0a7da8ba86af9bb9ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4023a43b9a7407881f0d2ff4a9049f8a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a4023a43b9a7407881f0d2ff4a9049f8a">get_optional_laser_temp_high_warning</a> (self)</td></tr>
+<tr class="separator:a4023a43b9a7407881f0d2ff4a9049f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa5d07e622ad61ff69b112186d83381e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#afa5d07e622ad61ff69b112186d83381e">get_optional_laser_temp_low_warning</a> (self)</td></tr>
+<tr class="separator:afa5d07e622ad61ff69b112186d83381e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af43954754d16c44b115e9ceba0799cc9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#af43954754d16c44b115e9ceba0799cc9">get_optional_tec_current_high_alarm</a> (self)</td></tr>
+<tr class="separator:af43954754d16c44b115e9ceba0799cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1edef9616af34ff85414df94714980"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a9a1edef9616af34ff85414df94714980">get_optional_tec_current_low_alarm</a> (self)</td></tr>
+<tr class="separator:a9a1edef9616af34ff85414df94714980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3764aaa6fa99352a0bd70b9cf8abdad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#af3764aaa6fa99352a0bd70b9cf8abdad">get_optional_tec_current_high_warning</a> (self)</td></tr>
+<tr class="separator:af3764aaa6fa99352a0bd70b9cf8abdad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c441cbcff3009efafb7b6aaa2ae1180"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a0c441cbcff3009efafb7b6aaa2ae1180">get_optional_tec_current_low_warning</a> (self)</td></tr>
+<tr class="separator:a0c441cbcff3009efafb7b6aaa2ae1180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d568a18b943a75b4e43b5c95e000c33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a7d568a18b943a75b4e43b5c95e000c33">calculate_rx_power_uw</a> (self)</td></tr>
+<tr class="separator:a7d568a18b943a75b4e43b5c95e000c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05166f72ddec1dc015f66d38b528dad9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a05166f72ddec1dc015f66d38b528dad9">get_tx_i_slope</a> (self)</td></tr>
+<tr class="separator:a05166f72ddec1dc015f66d38b528dad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90c4924dbf4328507b93c1d73128b93b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a90c4924dbf4328507b93c1d73128b93b">get_tx_i_offset</a> (self)</td></tr>
+<tr class="separator:a90c4924dbf4328507b93c1d73128b93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe8a79da7a613112a54a4ad1ce991a39"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#afe8a79da7a613112a54a4ad1ce991a39">get_tx_pwr_slope</a> (self)</td></tr>
+<tr class="separator:afe8a79da7a613112a54a4ad1ce991a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a343a8d595cd6d366e92541aef4c0ecb9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a343a8d595cd6d366e92541aef4c0ecb9">get_tx_pwr_offset</a> (self)</td></tr>
+<tr class="separator:a343a8d595cd6d366e92541aef4c0ecb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f69f487d2a3fab6092e9e579441afc5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a2f69f487d2a3fab6092e9e579441afc5">get_temp_slope</a> (self)</td></tr>
+<tr class="separator:a2f69f487d2a3fab6092e9e579441afc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad190cbab21212ae19972182b7b72947c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ad190cbab21212ae19972182b7b72947c">get_temp_offset</a> (self)</td></tr>
+<tr class="separator:ad190cbab21212ae19972182b7b72947c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e6f8d531edd9d387fb7a09dc9eef75"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a00e6f8d531edd9d387fb7a09dc9eef75">get_voltage_slope</a> (self)</td></tr>
+<tr class="separator:a00e6f8d531edd9d387fb7a09dc9eef75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae229eae7f2308be72cc6f83aac19d332"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae229eae7f2308be72cc6f83aac19d332">get_voltage_offset</a> (self)</td></tr>
+<tr class="separator:ae229eae7f2308be72cc6f83aac19d332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0716ec896c04ee751f19b6295bb6e52c"><td class="memItemLeft" align="right" valign="top"><a id="a0716ec896c04ee751f19b6295bb6e52c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>get_reserved_a2_bytes</b> (self)</td></tr>
+<tr class="separator:a0716ec896c04ee751f19b6295bb6e52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa41b0da782d2baa7fe98a431b8d064"><td class="memItemLeft" align="right" valign="top"><a id="acaa41b0da782d2baa7fe98a431b8d064"></a>
+str&#160;</td><td class="memItemRight" valign="bottom"><b>get_pagea2_checksum</b> (self)</td></tr>
+<tr class="separator:acaa41b0da782d2baa7fe98a431b8d064"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c87517bae696601c56cc1917ee03282"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a6c87517bae696601c56cc1917ee03282">calculate_pagea2_checksum</a> (self)</td></tr>
+<tr class="separator:a6c87517bae696601c56cc1917ee03282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:adca67f5c65a83622c6676c38551d13ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#adca67f5c65a83622c6676c38551d13ba">calibration_type</a></td></tr>
-<tr class="separator:adca67f5c65a83622c6676c38551d13ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee86f1d3effbada065421301be392235"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#aee86f1d3effbada065421301be392235">memory_pages</a></td></tr>
-<tr class="separator:aee86f1d3effbada065421301be392235"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0d43da0a2ae08745512bf8108a84819"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#ae0d43da0a2ae08745512bf8108a84819">page_a0</a></td></tr>
-<tr class="separator:ae0d43da0a2ae08745512bf8108a84819"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d9d611847d8eb1db13f399d0bc1f8b2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a0d9d611847d8eb1db13f399d0bc1f8b2">page_a2</a></td></tr>
-<tr class="separator:a0d9d611847d8eb1db13f399d0bc1f8b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ef4aa2f251994997167dd4c3b7a60b3"><td class="memItemLeft" align="right" valign="top"><a id="a6ef4aa2f251994997167dd4c3b7a60b3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>memory_pages</b></td></tr>
+<tr class="separator:a6ef4aa2f251994997167dd4c3b7a60b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74b5eb718817f5efef5abde187f862b7"><td class="memItemLeft" align="right" valign="top"><a id="a74b5eb718817f5efef5abde187f862b7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>page_a0</b></td></tr>
+<tr class="separator:a74b5eb718817f5efef5abde187f862b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a267be733cf49e6feb1d89f035023bb1b"><td class="memItemLeft" align="right" valign="top"><a id="a267be733cf49e6feb1d89f035023bb1b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>page_a2</b></td></tr>
+<tr class="separator:a267be733cf49e6feb1d89f035023bb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f1d26274a8264b9c3df6cfa17c131d"><td class="memItemLeft" align="right" valign="top"><a id="a83f1d26274a8264b9c3df6cfa17c131d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>calibration_type</b></td></tr>
+<tr class="separator:a83f1d26274a8264b9c3df6cfa17c131d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a18340f2f2342933b54b1dc8e6c0ed797"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a18340f2f2342933b54b1dc8e6c0ed797">CalibrationType</a></td></tr>
-<tr class="separator:a18340f2f2342933b54b1dc8e6c0ed797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff82b9d412af04d112fd08efade2561"><td class="memItemLeft" align="right" valign="top"><a id="a4ff82b9d412af04d112fd08efade2561"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>CalibrationType</b></td></tr>
+<tr class="separator:a4ff82b9d412af04d112fd08efade2561"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Has two lists of integers that represent the memory map
 of SFP/SFP+ modules. The provided getter methods can return any
 information about the module, including vendor information, diagnostic
 monitoring support, and alarm/warning thresholds.
-</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2ac18d1520ba5eb32efd96a12c0e54ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ac18d1520ba5eb32efd96a12c0e54ad">&#9670;&nbsp;</a></span>__init__()</h2>
+</pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1914f23369b2c1a285d64e0226108c52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1914f23369b2c1a285d64e0226108c52">&#9670;&nbsp;</a></span>calculate_cc_ext()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def __init__ </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">List[int]&#160;</td>
-          <td class="paramname"><em>page_a0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">List[int]&#160;</td>
-          <td class="paramname"><em>page_a2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initalizes the <a class="el" href="classsfp_1_1SFP.html">SFP</a> module. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">page_a0</td><td>Array of integers that hold the 0xA0 memory page of an SFP+ EEPROM </td></tr>
-    <tr><td class="paramname">page_a2</td><td>Array of integers that hold the 0xA2 memory page of an SFP+ EEPROM </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9e99ca03275f7b67b3167b900c5ff475"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e99ca03275f7b67b3167b900c5ff475">&#9670;&nbsp;</a></span>add_memory_page()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> None add_memory_page </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>page_code</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">List[int]&#160;</td>
-          <td class="paramname"><em>page_values</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Associates a hex value key with a list of integers that represent a memory page from SFP+ EEPROM. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">page_code</td><td>An integer, may be given as hex </td></tr>
-    <tr><td class="paramname">page_values</td><td>A list of integers that represent that page of EEPROM </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="af48a1be793f5d2bdd50989c57d445fec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af48a1be793f5d2bdd50989c57d445fec">&#9670;&nbsp;</a></span>calculate_cc_base()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int calculate_cc_base </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac352b1e87bdbfd4b9ec4bc08b8686b2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac352b1e87bdbfd4b9ec4bc08b8686b2d">&#9670;&nbsp;</a></span>calculate_cc_ext()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int calculate_cc_ext </td>
+          <td class="memname"> int sfp.SFP.calculate_cc_ext </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -407,14 +303,14 @@ a hex string.
 </pre> 
 </div>
 </div>
-<a id="adf455dcb25fdcdfbb2f9ca23300bc734"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf455dcb25fdcdfbb2f9ca23300bc734">&#9670;&nbsp;</a></span>calculate_pagea2_checksum()</h2>
+<a id="a6c87517bae696601c56cc1917ee03282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c87517bae696601c56cc1917ee03282">&#9670;&nbsp;</a></span>calculate_pagea2_checksum()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int calculate_pagea2_checksum </td>
+          <td class="memname"> int sfp.SFP.calculate_pagea2_checksum </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -427,14 +323,14 @@ bytes 0-94.
 </pre> 
 </div>
 </div>
-<a id="aa1cab5cbab97e73e7fd84a0d39e5db9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1cab5cbab97e73e7fd84a0d39e5db9c">&#9670;&nbsp;</a></span>calculate_rx_power_uw()</h2>
+<a id="a7d568a18b943a75b4e43b5c95e000c33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d568a18b943a75b4e43b5c95e000c33">&#9670;&nbsp;</a></span>calculate_rx_power_uw()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int calculate_rx_power_uw </td>
+          <td class="memname"> int sfp.SFP.calculate_rx_power_uw </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -442,20 +338,24 @@ bytes 0-94.
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Calculates the receiver optical power in uW. </p>
-<p>Formula for external calibration is: Rx_PWR(4) * (read value) + Rx_PWR(3) * (read value) + Rx_PWR(2) * (read value) + Rx_PWR(1) * (read value) + Rx_PWR(0) </p>
-
+<pre class="fragment">Calculates the receiver optical power in uW. Formula for external
+calibration is:
+    Rx_PWR(4) * (read value) + 
+    Rx_PWR(3) * (read value) + 
+    Rx_PWR(2) * (read value) + 
+    Rx_PWR(1) * (read value) + 
+    Rx_PWR(0)
+</pre> 
 </div>
 </div>
-<a id="a98ca5ea1567d354486eeb0cc564794f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98ca5ea1567d354486eeb0cc564794f0">&#9670;&nbsp;</a></span>get_bias_high_alarm()</h2>
+<a id="a40509a6ef4b0dbc251756e1ac8973c4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40509a6ef4b0dbc251756e1ac8973c4d">&#9670;&nbsp;</a></span>get_bias_high_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_bias_high_alarm </td>
+          <td class="memname"> int sfp.SFP.get_bias_high_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -468,14 +368,14 @@ current being too high. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="a30b957e98beb051bb0788c70664ccf22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30b957e98beb051bb0788c70664ccf22">&#9670;&nbsp;</a></span>get_bias_high_warning()</h2>
+<a id="a6925db33d57b4fc3a27531af910816e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6925db33d57b4fc3a27531af910816e5">&#9670;&nbsp;</a></span>get_bias_high_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_bias_high_warning </td>
+          <td class="memname"> int sfp.SFP.get_bias_high_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -488,14 +388,14 @@ current being too high. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="ae7e3fbeb4f734a48e3a181fd478c7dd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7e3fbeb4f734a48e3a181fd478c7dd8">&#9670;&nbsp;</a></span>get_bias_low_alarm()</h2>
+<a id="af98cecb86a2bad72d1e09b5ef476008f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af98cecb86a2bad72d1e09b5ef476008f">&#9670;&nbsp;</a></span>get_bias_low_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_bias_low_alarm </td>
+          <td class="memname"> int sfp.SFP.get_bias_low_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -508,14 +408,14 @@ current being too low. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="a7735a29f2c750fd6f5b447e42a4fc52f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7735a29f2c750fd6f5b447e42a4fc52f">&#9670;&nbsp;</a></span>get_bias_low_warning()</h2>
+<a id="a84817417beb155bde5da694ef091c1a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84817417beb155bde5da694ef091c1a5">&#9670;&nbsp;</a></span>get_bias_low_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_bias_low_warning </td>
+          <td class="memname"> int sfp.SFP.get_bias_low_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -528,32 +428,14 @@ current being too low. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="a4eca119c1f52c405a229419ca32e106a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eca119c1f52c405a229419ca32e106a">&#9670;&nbsp;</a></span>get_cc_base()</h2>
+<a id="a4aceaf342ba893ec96321943afbcc751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aceaf342ba893ec96321943afbcc751">&#9670;&nbsp;</a></span>get_cc_ext()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_cc_base </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aba4e5d1a6c9a6440a472787166f34c9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba4e5d1a6c9a6440a472787166f34c9c">&#9670;&nbsp;</a></span>get_cc_ext()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str get_cc_ext </td>
+          <td class="memname"> str sfp.SFP.get_cc_ext </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -566,32 +448,14 @@ over the extended ID fields of SFP memory page 0xA0.
 </pre> 
 </div>
 </div>
-<a id="a24df0ce21846ca47aa1f20cae55cb907"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24df0ce21846ca47aa1f20cae55cb907">&#9670;&nbsp;</a></span>get_connector_type()</h2>
+<a id="aa1340c199f1eef3ea0fb6e514569f068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1340c199f1eef3ea0fb6e514569f068">&#9670;&nbsp;</a></span>get_diagnostic_monitoring_type()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_connector_type </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9001da3a09319409cae1a598e35e99a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9001da3a09319409cae1a598e35e99a5">&#9670;&nbsp;</a></span>get_diagnostic_monitoring_type()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str get_diagnostic_monitoring_type </td>
+          <td class="memname"> str sfp.SFP.get_diagnostic_monitoring_type </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -604,14 +468,14 @@ in the transceiver (see Table 8-5).
 </pre> 
 </div>
 </div>
-<a id="a446dd4212d9c6a309b61a11c28375ff9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a446dd4212d9c6a309b61a11c28375ff9">&#9670;&nbsp;</a></span>get_encoding()</h2>
+<a id="af47f2b6518d2dd833d372bb9d97d6d98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af47f2b6518d2dd833d372bb9d97d6d98">&#9670;&nbsp;</a></span>get_encoding()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_encoding </td>
+          <td class="memname"> str sfp.SFP.get_encoding </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -624,14 +488,14 @@ from SFF-8024 Table 4-2. Uses byte 11 of page 0xA0
 </pre> 
 </div>
 </div>
-<a id="a03cc904d2df5426e3749dc64b2229ce4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03cc904d2df5426e3749dc64b2229ce4">&#9670;&nbsp;</a></span>get_enhanced_options()</h2>
+<a id="aac151fd3f2242fb6ff8333f5f627036a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac151fd3f2242fb6ff8333f5f627036a">&#9670;&nbsp;</a></span>get_enhanced_options()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_enhanced_options </td>
+          <td class="memname"> str sfp.SFP.get_enhanced_options </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -644,50 +508,14 @@ implemented (if any) in the transceiver (see Table 8-6).
 </pre> 
 </div>
 </div>
-<a id="a8789b46d7513aff02d116882eda2c5f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8789b46d7513aff02d116882eda2c5f8">&#9670;&nbsp;</a></span>get_ext_identifier()</h2>
+<a id="a4776e22d91c90bf8dbab8e9937aaabfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4776e22d91c90bf8dbab8e9937aaabfe">&#9670;&nbsp;</a></span>get_identifier()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_ext_identifier </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a126a8fd19e75a39b13b36ddf33239c8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a126a8fd19e75a39b13b36ddf33239c8a">&#9670;&nbsp;</a></span>get_fibre_channel_speed2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str get_fibre_channel_speed2 </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa5b4ee4ea770c92fd790aaa44eaefa31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5b4ee4ea770c92fd790aaa44eaefa31">&#9670;&nbsp;</a></span>get_identifier()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str get_identifier </td>
+          <td class="memname"> str sfp.SFP.get_identifier </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -700,14 +528,14 @@ Uses byte 0 of page 0xA0.
 </pre> 
 </div>
 </div>
-<a id="a1076ae738c5c12c37bad4dff2d65cbd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1076ae738c5c12c37bad4dff2d65cbd3">&#9670;&nbsp;</a></span>get_max_signaling_rate_margin()</h2>
+<a id="a58f808c5e493c80df681d258c68efb8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f808c5e493c80df681d258c68efb8a">&#9670;&nbsp;</a></span>get_max_signaling_rate_margin()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_max_signaling_rate_margin </td>
+          <td class="memname"> str sfp.SFP.get_max_signaling_rate_margin </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -719,14 +547,14 @@ Uses byte 0 of page 0xA0.
 </pre> 
 </div>
 </div>
-<a id="ac6ace33c02fe65e0c2a554ec82125b60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6ace33c02fe65e0c2a554ec82125b60">&#9670;&nbsp;</a></span>get_min_signaling_rate_margin()</h2>
+<a id="ad2a27c6290bf95911716eb6650001500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2a27c6290bf95911716eb6650001500">&#9670;&nbsp;</a></span>get_min_signaling_rate_margin()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_min_signaling_rate_margin </td>
+          <td class="memname"> str sfp.SFP.get_min_signaling_rate_margin </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -738,14 +566,14 @@ Uses byte 0 of page 0xA0.
 </pre> 
 </div>
 </div>
-<a id="acae2ed10648f12e2c51082b091a42e4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acae2ed10648f12e2c51082b091a42e4a">&#9670;&nbsp;</a></span>get_om1_link_length()</h2>
+<a id="aec55b93f86fb2fd4ad71192ca1f64ea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec55b93f86fb2fd4ad71192ca1f64ea3">&#9670;&nbsp;</a></span>get_om1_link_length()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_om1_link_length </td>
+          <td class="memname"> int sfp.SFP.get_om1_link_length </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -757,14 +585,14 @@ Uses byte 0 of page 0xA0.
 </pre> 
 </div>
 </div>
-<a id="a5c8c88c95fc155722e86a07ea79221c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c8c88c95fc155722e86a07ea79221c7">&#9670;&nbsp;</a></span>get_om2_link_length()</h2>
+<a id="aa17d8ccbcb773f80f3355805438cddf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa17d8ccbcb773f80f3355805438cddf6">&#9670;&nbsp;</a></span>get_om2_link_length()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_om2_link_length </td>
+          <td class="memname"> int sfp.SFP.get_om2_link_length </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -776,14 +604,14 @@ Uses byte 0 of page 0xA0.
 </pre> 
 </div>
 </div>
-<a id="aae4aae4d25fc1b7cff105028a18b6740"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae4aae4d25fc1b7cff105028a18b6740">&#9670;&nbsp;</a></span>get_om3_link_length()</h2>
+<a id="aa98a8f1faa0da3ffa9ddf1ec3f936642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa98a8f1faa0da3ffa9ddf1ec3f936642">&#9670;&nbsp;</a></span>get_om3_link_length()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_om3_link_length </td>
+          <td class="memname"> int sfp.SFP.get_om3_link_length </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -796,14 +624,14 @@ Alternatively, copper/direct attach cable multiplier and base value
 </pre> 
 </div>
 </div>
-<a id="abf4de138e1c9ef24d24ac03ff5172876"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf4de138e1c9ef24d24ac03ff5172876">&#9670;&nbsp;</a></span>get_om4_link_length()</h2>
+<a id="ae86d6b064950151969d529ff1585b532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae86d6b064950151969d529ff1585b532">&#9670;&nbsp;</a></span>get_om4_link_length()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_om4_link_length </td>
+          <td class="memname"> int sfp.SFP.get_om4_link_length </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -816,14 +644,14 @@ or length of copper/direct attach cable in units of m.
 </pre> 
 </div>
 </div>
-<a id="a59d0aaf7f70555e061249768112e9649"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59d0aaf7f70555e061249768112e9649">&#9670;&nbsp;</a></span>get_optional_laser_temp_high_alarm()</h2>
+<a id="ac1fc5c4d39d8055207cc09dc68f90148"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1fc5c4d39d8055207cc09dc68f90148">&#9670;&nbsp;</a></span>get_optional_laser_temp_high_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_optional_laser_temp_high_alarm </td>
+          <td class="memname"> int sfp.SFP.get_optional_laser_temp_high_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -836,14 +664,14 @@ temperature. Uncalibrated
 </pre> 
 </div>
 </div>
-<a id="a686fdc88dcfc24e9376f2f82f63dadd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a686fdc88dcfc24e9376f2f82f63dadd8">&#9670;&nbsp;</a></span>get_optional_laser_temp_high_warning()</h2>
+<a id="a4023a43b9a7407881f0d2ff4a9049f8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4023a43b9a7407881f0d2ff4a9049f8a">&#9670;&nbsp;</a></span>get_optional_laser_temp_high_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_optional_laser_temp_high_warning </td>
+          <td class="memname"> int sfp.SFP.get_optional_laser_temp_high_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -856,14 +684,14 @@ temperature. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="ac25eb8e786d2aa19e231776f9787a9a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac25eb8e786d2aa19e231776f9787a9a0">&#9670;&nbsp;</a></span>get_optional_laser_temp_low_alarm()</h2>
+<a id="ae7c221657bd1eb0a7da8ba86af9bb9ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7c221657bd1eb0a7da8ba86af9bb9ea">&#9670;&nbsp;</a></span>get_optional_laser_temp_low_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_optional_laser_temp_low_alarm </td>
+          <td class="memname"> int sfp.SFP.get_optional_laser_temp_low_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -876,14 +704,14 @@ temperature. Uncalibrated
 </pre> 
 </div>
 </div>
-<a id="a02bc7ef233d648cfcab5329dbdc49a90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02bc7ef233d648cfcab5329dbdc49a90">&#9670;&nbsp;</a></span>get_optional_laser_temp_low_warning()</h2>
+<a id="afa5d07e622ad61ff69b112186d83381e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa5d07e622ad61ff69b112186d83381e">&#9670;&nbsp;</a></span>get_optional_laser_temp_low_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_optional_laser_temp_low_warning </td>
+          <td class="memname"> int sfp.SFP.get_optional_laser_temp_low_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -896,14 +724,14 @@ temperature. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="acbb55b437f50914b1e1f0af2f9466279"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbb55b437f50914b1e1f0af2f9466279">&#9670;&nbsp;</a></span>get_optional_tec_current_high_alarm()</h2>
+<a id="af43954754d16c44b115e9ceba0799cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af43954754d16c44b115e9ceba0799cc9">&#9670;&nbsp;</a></span>get_optional_tec_current_high_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_optional_tec_current_high_alarm </td>
+          <td class="memname"> int sfp.SFP.get_optional_tec_current_high_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -916,14 +744,14 @@ current. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="aaeb7e9e71311f58d4919409085315742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaeb7e9e71311f58d4919409085315742">&#9670;&nbsp;</a></span>get_optional_tec_current_high_warning()</h2>
+<a id="af3764aaa6fa99352a0bd70b9cf8abdad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3764aaa6fa99352a0bd70b9cf8abdad">&#9670;&nbsp;</a></span>get_optional_tec_current_high_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_optional_tec_current_high_warning </td>
+          <td class="memname"> int sfp.SFP.get_optional_tec_current_high_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -936,14 +764,14 @@ current. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="a55b13ed431ba8e37da210ab52be930c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55b13ed431ba8e37da210ab52be930c5">&#9670;&nbsp;</a></span>get_optional_tec_current_low_alarm()</h2>
+<a id="a9a1edef9616af34ff85414df94714980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1edef9616af34ff85414df94714980">&#9670;&nbsp;</a></span>get_optional_tec_current_low_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_optional_tec_current_low_alarm </td>
+          <td class="memname"> int sfp.SFP.get_optional_tec_current_low_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -956,14 +784,14 @@ current. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="a2600b2970d06d1922c84e2cb6207aa1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2600b2970d06d1922c84e2cb6207aa1e">&#9670;&nbsp;</a></span>get_optional_tec_current_low_warning()</h2>
+<a id="a0c441cbcff3009efafb7b6aaa2ae1180"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c441cbcff3009efafb7b6aaa2ae1180">&#9670;&nbsp;</a></span>get_optional_tec_current_low_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_optional_tec_current_low_warning </td>
+          <td class="memname"> int sfp.SFP.get_optional_tec_current_low_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -976,14 +804,14 @@ current. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="a4d040a41f3b6dae806e0d9ce879220ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d040a41f3b6dae806e0d9ce879220ef">&#9670;&nbsp;</a></span>get_optional_tr_signals()</h2>
+<a id="ad966c5b9e0f606c2d51933a9d6686810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad966c5b9e0f606c2d51933a9d6686810">&#9670;&nbsp;</a></span>get_optional_tr_signals()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_optional_tr_signals </td>
+          <td class="memname"> str sfp.SFP.get_optional_tr_signals </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -996,135 +824,14 @@ implemented. From Table 8-3.
 </pre> 
 </div>
 </div>
-<a id="a57ef770184e58daeedfe996f185df843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57ef770184e58daeedfe996f185df843">&#9670;&nbsp;</a></span>get_page()</h2>
+<a id="aebdd57356ff0372b845d06b10bbcc312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebdd57356ff0372b845d06b10bbcc312">&#9670;&nbsp;</a></span>get_reserved_fields()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> List[int] get_page </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>page_number</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets the requested page number from the memory pages dictionary. </p>
-<dl class="section return"><dt>Returns</dt><dd>The list of integers from the associated page number key </dd></dl>
-
-</div>
-</div>
-<a id="a83625094c8223d3e9ea98b72fba40798"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83625094c8223d3e9ea98b72fba40798">&#9670;&nbsp;</a></span>get_page_a0()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> List[int] get_page_a0 </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae75e66bf9b2d6f4e19ff6fe276268ee9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae75e66bf9b2d6f4e19ff6fe276268ee9">&#9670;&nbsp;</a></span>get_page_a2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> List[int] get_page_a2 </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7021b145126b75860290d7d99cea2d10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7021b145126b75860290d7d99cea2d10">&#9670;&nbsp;</a></span>get_pagea2_checksum()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str get_pagea2_checksum </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4a9a0f29fc3485010dcfe2a0d534c3c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a9a0f29fc3485010dcfe2a0d534c3c9">&#9670;&nbsp;</a></span>get_rate_identifier()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str get_rate_identifier </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a17486be87f074980378badda2046cb71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17486be87f074980378badda2046cb71">&#9670;&nbsp;</a></span>get_reserved_a2_bytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int get_reserved_a2_bytes </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae815b348a6805c5432d40ad14e6781c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae815b348a6805c5432d40ad14e6781c6">&#9670;&nbsp;</a></span>get_reserved_fields()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str get_reserved_fields </td>
+          <td class="memname"> str sfp.SFP.get_reserved_fields </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1139,32 +846,14 @@ that contains the data.
 </pre> 
 </div>
 </div>
-<a id="abfc8011f529df3f5b96375945386b2c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfc8011f529df3f5b96375945386b2c9">&#9670;&nbsp;</a></span>get_rx_power()</h2>
+<a id="a1f2865b6e444edd9b3942898e9a46ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f2865b6e444edd9b3942898e9a46ced">&#9670;&nbsp;</a></span>get_rx_power_high_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def get_rx_power </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a37dc7d95c17c68ab9a085ab252ed3e69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37dc7d95c17c68ab9a085ab252ed3e69">&#9670;&nbsp;</a></span>get_rx_power_high_alarm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int get_rx_power_high_alarm </td>
+          <td class="memname"> int sfp.SFP.get_rx_power_high_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1177,14 +866,14 @@ power being too high. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="a5ccd8a265dd7417ce34737b3f2969d68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ccd8a265dd7417ce34737b3f2969d68">&#9670;&nbsp;</a></span>get_rx_power_high_warning()</h2>
+<a id="adb44dc06fa17ba8afc92bf9b0612b5a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb44dc06fa17ba8afc92bf9b0612b5a5">&#9670;&nbsp;</a></span>get_rx_power_high_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_rx_power_high_warning </td>
+          <td class="memname"> int sfp.SFP.get_rx_power_high_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1197,14 +886,14 @@ power being too high. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="a3c7114eff650e26c03a1306b99d6a923"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c7114eff650e26c03a1306b99d6a923">&#9670;&nbsp;</a></span>get_rx_power_low_alarm()</h2>
+<a id="aa7f3148ae7964f4f454e3ed5be40c7a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f3148ae7964f4f454e3ed5be40c7a2">&#9670;&nbsp;</a></span>get_rx_power_low_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_rx_power_low_alarm </td>
+          <td class="memname"> int sfp.SFP.get_rx_power_low_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1217,14 +906,14 @@ power being too low. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="ac60cd60dce0b11b34dda74590d184dc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac60cd60dce0b11b34dda74590d184dc5">&#9670;&nbsp;</a></span>get_rx_power_low_warning()</h2>
+<a id="a62919adffe535dad6f507d915b0d7b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62919adffe535dad6f507d915b0d7b59">&#9670;&nbsp;</a></span>get_rx_power_low_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_rx_power_low_warning </td>
+          <td class="memname"> int sfp.SFP.get_rx_power_low_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1237,14 +926,14 @@ power being too low. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="a26ca34727f4247e3f44c559031f4fd7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26ca34727f4247e3f44c559031f4fd7b">&#9670;&nbsp;</a></span>get_sff_8472_compliance()</h2>
+<a id="ac7e57ca02961c37c76ce72cf242f3762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7e57ca02961c37c76ce72cf242f3762">&#9670;&nbsp;</a></span>get_sff_8472_compliance()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_sff_8472_compliance </td>
+          <td class="memname"> str sfp.SFP.get_sff_8472_compliance </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1257,14 +946,14 @@ with (see Table 8-8).
 </pre> 
 </div>
 </div>
-<a id="a4f98f8c621375709055b735498cf5e3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f98f8c621375709055b735498cf5e3a">&#9670;&nbsp;</a></span>get_signaling_rate_nominal()</h2>
+<a id="a07eea8deed379bf56a2866fec7d6a468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07eea8deed379bf56a2866fec7d6a468">&#9670;&nbsp;</a></span>get_signaling_rate_nominal()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_signaling_rate_nominal </td>
+          <td class="memname"> int sfp.SFP.get_signaling_rate_nominal </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1276,34 +965,14 @@ with (see Table 8-8).
 </pre> 
 </div>
 </div>
-<a id="a220d92511200573174d7a7a4765b2907"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a220d92511200573174d7a7a4765b2907">&#9670;&nbsp;</a></span>get_smf_km_link_length()</h2>
+<a id="addb997c295249c5dfd164081e6b20427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb997c295249c5dfd164081e6b20427">&#9670;&nbsp;</a></span>get_smf_link_length()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_smf_km_link_length </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Link length supported for single-mode fiber, units of
-km, or copper cable attenuation in dB at 12.9 GHz
-</pre> 
-</div>
-</div>
-<a id="af23f6af72591659bc4eba939a6a90f13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af23f6af72591659bc4eba939a6a90f13">&#9670;&nbsp;</a></span>get_smf_link_length()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int get_smf_link_length </td>
+          <td class="memname"> int sfp.SFP.get_smf_link_length </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1316,14 +985,14 @@ km, or copper cable attenuation in dB at 12.9 GHz
 </pre> 
 </div>
 </div>
-<a id="ad4a25ceb73e76514c944eb10bfd9734a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4a25ceb73e76514c944eb10bfd9734a">&#9670;&nbsp;</a></span>get_temp_high_alarm()</h2>
+<a id="aa3729a8b97f21c40402900aa5fe4b59b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3729a8b97f21c40402900aa5fe4b59b">&#9670;&nbsp;</a></span>get_temp_high_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_temp_high_alarm </td>
+          <td class="memname"> int sfp.SFP.get_temp_high_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1336,14 +1005,14 @@ being too high. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="a1593be4004af46bc0e5f2d5ab8efe3c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1593be4004af46bc0e5f2d5ab8efe3c2">&#9670;&nbsp;</a></span>get_temp_high_warning()</h2>
+<a id="afa20d5961095eae39c0905da23357318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa20d5961095eae39c0905da23357318">&#9670;&nbsp;</a></span>get_temp_high_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_temp_high_warning </td>
+          <td class="memname"> int sfp.SFP.get_temp_high_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1356,14 +1025,14 @@ being too high. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="af31aa683359d627d08bf5aa8063b742f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af31aa683359d627d08bf5aa8063b742f">&#9670;&nbsp;</a></span>get_temp_low_alarm()</h2>
+<a id="a9e7b22587d0345eca81c52c060e08658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7b22587d0345eca81c52c060e08658">&#9670;&nbsp;</a></span>get_temp_low_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_temp_low_alarm </td>
+          <td class="memname"> int sfp.SFP.get_temp_low_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1376,14 +1045,14 @@ being too low. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="a3453cefc64ac5f425e32eec2192cb85d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3453cefc64ac5f425e32eec2192cb85d">&#9670;&nbsp;</a></span>get_temp_low_warning()</h2>
+<a id="ada36c381d1adcdcc6c06c7c992e80477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada36c381d1adcdcc6c06c7c992e80477">&#9670;&nbsp;</a></span>get_temp_low_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_temp_low_warning </td>
+          <td class="memname"> int sfp.SFP.get_temp_low_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1396,14 +1065,14 @@ being too low. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="a46295be135ab67d2024d1a81e3e02ae1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46295be135ab67d2024d1a81e3e02ae1">&#9670;&nbsp;</a></span>get_temp_offset()</h2>
+<a id="ad190cbab21212ae19972182b7b72947c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad190cbab21212ae19972182b7b72947c">&#9670;&nbsp;</a></span>get_temp_offset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_temp_offset </td>
+          <td class="memname"> int sfp.SFP.get_temp_offset </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1417,14 +1086,14 @@ Bit 7 of byte 86 is MSB, bit 0 of byte 87 is LSB. T(Offset) should be set to
 </pre> 
 </div>
 </div>
-<a id="a880cdd164fa586ce3e65a60e0eacdbc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a880cdd164fa586ce3e65a60e0eacdbc7">&#9670;&nbsp;</a></span>get_temp_slope()</h2>
+<a id="a2f69f487d2a3fab6092e9e579441afc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f69f487d2a3fab6092e9e579441afc5">&#9670;&nbsp;</a></span>get_temp_slope()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_temp_slope </td>
+          <td class="memname"> int sfp.SFP.get_temp_slope </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1438,34 +1107,14 @@ Bit 7 of byte 84 is MSB, bit 0 of byte 85 is LSB. T(Slope) should be set to
 </pre> 
 </div>
 </div>
-<a id="a2c59102d392fb4779e04622ccc7e99b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c59102d392fb4779e04622ccc7e99b3">&#9670;&nbsp;</a></span>get_temperature()</h2>
+<a id="afbd17436b43a8419b61d551cb8298d4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbd17436b43a8419b61d551cb8298d4f">&#9670;&nbsp;</a></span>get_transceiver2()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> float get_temperature </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Returns the module temperature. Calibrated
-16-bit data.
-</pre> 
-</div>
-</div>
-<a id="a4b370b516d6f137c9b4dd59438e97b2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b370b516d6f137c9b4dd59438e97b2e">&#9670;&nbsp;</a></span>get_transceiver2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str get_transceiver2 </td>
+          <td class="memname"> str sfp.SFP.get_transceiver2 </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1478,14 +1127,14 @@ from SFF 8024 Table 4-4.
 </pre> 
 </div>
 </div>
-<a id="a501bf67ada7a5a5c295a83e1d82d0892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a501bf67ada7a5a5c295a83e1d82d0892">&#9670;&nbsp;</a></span>get_transceiver_info()</h2>
+<a id="a344b010db19c78d9570f8ae6fd67d6e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a344b010db19c78d9570f8ae6fd67d6e7">&#9670;&nbsp;</a></span>get_transceiver_info()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> List[str] get_transceiver_info </td>
+          <td class="memname"> List[str] sfp.SFP.get_transceiver_info </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1497,32 +1146,14 @@ from SFF 8024 Table 4-4.
 </pre> 
 </div>
 </div>
-<a id="a205aa16c044ef797d348b51340a1c78f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a205aa16c044ef797d348b51340a1c78f">&#9670;&nbsp;</a></span>get_tx_bias_current()</h2>
+<a id="a90c4924dbf4328507b93c1d73128b93b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90c4924dbf4328507b93c1d73128b93b">&#9670;&nbsp;</a></span>get_tx_i_offset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> float get_tx_bias_current </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7615d350c89aac9f8b2c62133c842401"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7615d350c89aac9f8b2c62133c842401">&#9670;&nbsp;</a></span>get_tx_i_offset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int get_tx_i_offset </td>
+          <td class="memname"> int sfp.SFP.get_tx_i_offset </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1536,14 +1167,14 @@ Tx_I(Offset) should be set to zero for "internally calibrated' devices.
 </pre> 
 </div>
 </div>
-<a id="a32deab1b0ad2a32d2080cb4dc13d1bc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32deab1b0ad2a32d2080cb4dc13d1bc9">&#9670;&nbsp;</a></span>get_tx_i_slope()</h2>
+<a id="a05166f72ddec1dc015f66d38b528dad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05166f72ddec1dc015f66d38b528dad9">&#9670;&nbsp;</a></span>get_tx_i_slope()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_tx_i_slope </td>
+          <td class="memname"> int sfp.SFP.get_tx_i_slope </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1551,38 +1182,20 @@ Tx_I(Offset) should be set to zero for "internally calibrated' devices.
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Get the slope for the transmitter current. </p>
-<p>Fixed decimal (unsigned) calibration data, laser bias current. Bit 7 of byte 76 is MSB, bit 0 of byte 77 is LSB. Tx_I(slope) should be set to 1 for 'internally calibrated' devices. </p>
-
+<pre class="fragment">Fixed decimal (unsigned) calibration data, laser bias current.
+Bit 7 of byte 76 is MSB, bit 0 of byte 77 is LSB. Tx_I(slope)
+should be set to 1 for 'internally calibrated' devices.
+</pre> 
 </div>
 </div>
-<a id="aa4f9affc8738fe90d8c519c54608548d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4f9affc8738fe90d8c519c54608548d">&#9670;&nbsp;</a></span>get_tx_power()</h2>
+<a id="abb619182d278767cded07ac65ae8987b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb619182d278767cded07ac65ae8987b">&#9670;&nbsp;</a></span>get_tx_power_high_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> float get_tx_power </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a12941801f62e3868203fc88a26b8fd9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12941801f62e3868203fc88a26b8fd9e">&#9670;&nbsp;</a></span>get_tx_power_high_alarm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> int get_tx_power_high_alarm </td>
+          <td class="memname"> int sfp.SFP.get_tx_power_high_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1595,14 +1208,14 @@ power being too high. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="ae677005d48e6208534fd32fb5a3a6e13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae677005d48e6208534fd32fb5a3a6e13">&#9670;&nbsp;</a></span>get_tx_power_high_warning()</h2>
+<a id="ae23af1767f0df0f6da1d4a997f4bad70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae23af1767f0df0f6da1d4a997f4bad70">&#9670;&nbsp;</a></span>get_tx_power_high_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_tx_power_high_warning </td>
+          <td class="memname"> int sfp.SFP.get_tx_power_high_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1615,14 +1228,14 @@ power being too high. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="a811e267b2dddcbcf8dd68354c27bd686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a811e267b2dddcbcf8dd68354c27bd686">&#9670;&nbsp;</a></span>get_tx_power_low_alarm()</h2>
+<a id="a7411b0ea1d4aa0173e9b654b8cb6935c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7411b0ea1d4aa0173e9b654b8cb6935c">&#9670;&nbsp;</a></span>get_tx_power_low_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_tx_power_low_alarm </td>
+          <td class="memname"> int sfp.SFP.get_tx_power_low_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1635,14 +1248,14 @@ power being too low. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="afd8804fa79790cc54c66ae932db168f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd8804fa79790cc54c66ae932db168f6">&#9670;&nbsp;</a></span>get_tx_power_low_warning()</h2>
+<a id="a5895aa0bdd9006d1fce8baee51d9f61d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5895aa0bdd9006d1fce8baee51d9f61d">&#9670;&nbsp;</a></span>get_tx_power_low_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_tx_power_low_warning </td>
+          <td class="memname"> int sfp.SFP.get_tx_power_low_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1655,14 +1268,14 @@ power being too low. Uncalibrated.
 </pre> 
 </div>
 </div>
-<a id="a2cae0f3504b72b2b9b35211bb83f6f29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cae0f3504b72b2b9b35211bb83f6f29">&#9670;&nbsp;</a></span>get_tx_pwr_offset()</h2>
+<a id="a343a8d595cd6d366e92541aef4c0ecb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a343a8d595cd6d366e92541aef4c0ecb9">&#9670;&nbsp;</a></span>get_tx_pwr_offset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_tx_pwr_offset </td>
+          <td class="memname"> int sfp.SFP.get_tx_pwr_offset </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1676,14 +1289,14 @@ Tx_PWR(Offset) should be set to zero for "internally calibrated" devices.
 </pre> 
 </div>
 </div>
-<a id="ac2444bc2ed4eac7e89ec0eafb82e42f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2444bc2ed4eac7e89ec0eafb82e42f9">&#9670;&nbsp;</a></span>get_tx_pwr_slope()</h2>
+<a id="afe8a79da7a613112a54a4ad1ce991a39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe8a79da7a613112a54a4ad1ce991a39">&#9670;&nbsp;</a></span>get_tx_pwr_slope()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_tx_pwr_slope </td>
+          <td class="memname"> int sfp.SFP.get_tx_pwr_slope </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1697,33 +1310,14 @@ should be set to 1 for 'internally calibrated' devices.
 </pre> 
 </div>
 </div>
-<a id="a9bae5d582a040aff1fc424dc57410c9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bae5d582a040aff1fc424dc57410c9d">&#9670;&nbsp;</a></span>get_vcc()</h2>
+<a id="abd60c9fb527a65659b4dc3d1303b1995"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd60c9fb527a65659b4dc3d1303b1995">&#9670;&nbsp;</a></span>get_vendor_date_code()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> float get_vcc </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Returns the measured supply voltage in transceiver.
-</pre> 
-</div>
-</div>
-<a id="abbe95a6cb3e97115fe5c4da1e3963344"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbe95a6cb3e97115fe5c4da1e3963344">&#9670;&nbsp;</a></span>get_vendor_date_code()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> str get_vendor_date_code </td>
+          <td class="memname"> str sfp.SFP.get_vendor_date_code </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1735,14 +1329,14 @@ should be set to 1 for 'internally calibrated' devices.
 </pre> 
 </div>
 </div>
-<a id="a653f0b8a59ea6aae46aa2ce9ab67d41d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a653f0b8a59ea6aae46aa2ce9ab67d41d">&#9670;&nbsp;</a></span>get_vendor_eeprom()</h2>
+<a id="ad96b0b611b5b3e58e73ac6a227b6e71a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad96b0b611b5b3e58e73ac6a227b6e71a">&#9670;&nbsp;</a></span>get_vendor_eeprom()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_vendor_eeprom </td>
+          <td class="memname"> str sfp.SFP.get_vendor_eeprom </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1754,14 +1348,14 @@ should be set to 1 for 'internally calibrated' devices.
 </pre> 
 </div>
 </div>
-<a id="a8c0a4620ddd0e55306c8700fcb3a16d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c0a4620ddd0e55306c8700fcb3a16d0">&#9670;&nbsp;</a></span>get_vendor_name()</h2>
+<a id="aaaeed72528ee16cd202455b75a2481ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaeed72528ee16cd202455b75a2481ae">&#9670;&nbsp;</a></span>get_vendor_name()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_vendor_name </td>
+          <td class="memname"> str sfp.SFP.get_vendor_name </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1773,14 +1367,14 @@ should be set to 1 for 'internally calibrated' devices.
 </pre> 
 </div>
 </div>
-<a id="ac144ac1d47d3c591c1e63a8e4a3f8a80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac144ac1d47d3c591c1e63a8e4a3f8a80">&#9670;&nbsp;</a></span>get_vendor_oui()</h2>
+<a id="a1c2a1ac8473788f323b4cee46328dff3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2a1ac8473788f323b4cee46328dff3">&#9670;&nbsp;</a></span>get_vendor_oui()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> List[int] get_vendor_oui </td>
+          <td class="memname"> List[int] sfp.SFP.get_vendor_oui </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1792,14 +1386,14 @@ should be set to 1 for 'internally calibrated' devices.
 </pre> 
 </div>
 </div>
-<a id="af8f959c1a9591097ce3cecf3e2a68c3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8f959c1a9591097ce3cecf3e2a68c3f">&#9670;&nbsp;</a></span>get_vendor_part_number()</h2>
+<a id="a7dc42bf17911f5d0216fcb9900703be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dc42bf17911f5d0216fcb9900703be1">&#9670;&nbsp;</a></span>get_vendor_part_number()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_vendor_part_number </td>
+          <td class="memname"> str sfp.SFP.get_vendor_part_number </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1811,14 +1405,14 @@ should be set to 1 for 'internally calibrated' devices.
 </pre> 
 </div>
 </div>
-<a id="a0fca70eff027cbb7582bf3adedd11250"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fca70eff027cbb7582bf3adedd11250">&#9670;&nbsp;</a></span>get_vendor_revision_level()</h2>
+<a id="a593047f7449b2ffb4812f5bff075c878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a593047f7449b2ffb4812f5bff075c878">&#9670;&nbsp;</a></span>get_vendor_revision_level()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_vendor_revision_level </td>
+          <td class="memname"> str sfp.SFP.get_vendor_revision_level </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1831,14 +1425,14 @@ by vendor in ASCII. Returns bytes [56,59]
 </pre> 
 </div>
 </div>
-<a id="a98317ad8d2b24fbac1fe40f12076d7c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98317ad8d2b24fbac1fe40f12076d7c6">&#9670;&nbsp;</a></span>get_vendor_serial_number()</h2>
+<a id="a15d5fc5d01dbc2f19cb865b3193c599f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15d5fc5d01dbc2f19cb865b3193c599f">&#9670;&nbsp;</a></span>get_vendor_serial_number()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> str get_vendor_serial_number </td>
+          <td class="memname"> str sfp.SFP.get_vendor_serial_number </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1850,14 +1444,14 @@ by vendor in ASCII. Returns bytes [56,59]
 </pre> 
 </div>
 </div>
-<a id="a3456f063bad2c1c865e9923fbb865850"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3456f063bad2c1c865e9923fbb865850">&#9670;&nbsp;</a></span>get_voltage_high_alarm()</h2>
+<a id="aa54f2139f9f44f358a8b64d14e6df276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa54f2139f9f44f358a8b64d14e6df276">&#9670;&nbsp;</a></span>get_voltage_high_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_voltage_high_alarm </td>
+          <td class="memname"> int sfp.SFP.get_voltage_high_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1870,14 +1464,14 @@ being too high. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="af2baed0178fa149dc7f02997aae62af5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2baed0178fa149dc7f02997aae62af5">&#9670;&nbsp;</a></span>get_voltage_high_warning()</h2>
+<a id="a86f87c1328dbc2d91c3a2d484b95a5ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86f87c1328dbc2d91c3a2d484b95a5ab">&#9670;&nbsp;</a></span>get_voltage_high_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_voltage_high_warning </td>
+          <td class="memname"> int sfp.SFP.get_voltage_high_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1890,14 +1484,14 @@ being too high. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="aa57ea1485d992333266c8e45338d5b08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa57ea1485d992333266c8e45338d5b08">&#9670;&nbsp;</a></span>get_voltage_low_alarm()</h2>
+<a id="aa30dedcc3a085350dc0a98371fb5ec0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa30dedcc3a085350dc0a98371fb5ec0a">&#9670;&nbsp;</a></span>get_voltage_low_alarm()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_voltage_low_alarm </td>
+          <td class="memname"> int sfp.SFP.get_voltage_low_alarm </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1910,14 +1504,14 @@ being too low. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="a40dbd172bf67fad5f0eb125e08c76227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40dbd172bf67fad5f0eb125e08c76227">&#9670;&nbsp;</a></span>get_voltage_low_warning()</h2>
+<a id="ae21edaa56bf7fe850c96483da93820ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae21edaa56bf7fe850c96483da93820ca">&#9670;&nbsp;</a></span>get_voltage_low_warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_voltage_low_warning </td>
+          <td class="memname"> int sfp.SFP.get_voltage_low_warning </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1930,14 +1524,14 @@ being too low. This value is not calibrated.
 </pre> 
 </div>
 </div>
-<a id="a529e1a633c90cf96483053fd5890ed40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a529e1a633c90cf96483053fd5890ed40">&#9670;&nbsp;</a></span>get_voltage_offset()</h2>
+<a id="ae229eae7f2308be72cc6f83aac19d332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae229eae7f2308be72cc6f83aac19d332">&#9670;&nbsp;</a></span>get_voltage_offset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_voltage_offset </td>
+          <td class="memname"> int sfp.SFP.get_voltage_offset </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1951,14 +1545,14 @@ Bit 7 of byte 90 is MSB, bit 0 of byte 91 is LSB. V(Offset) should be set to
 </pre> 
 </div>
 </div>
-<a id="a3a4266ad0aae708d45fb49f5e926220b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a4266ad0aae708d45fb49f5e926220b">&#9670;&nbsp;</a></span>get_voltage_slope()</h2>
+<a id="a00e6f8d531edd9d387fb7a09dc9eef75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e6f8d531edd9d387fb7a09dc9eef75">&#9670;&nbsp;</a></span>get_voltage_slope()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_voltage_slope </td>
+          <td class="memname"> int sfp.SFP.get_voltage_slope </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1972,14 +1566,14 @@ Bit 7 of byte 88 is MSB, bit 0 of byte 89 is LSB. V(Slope) should be set to
 </pre> 
 </div>
 </div>
-<a id="a66f0541ae15efae3fbcd98e7ca416791"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66f0541ae15efae3fbcd98e7ca416791">&#9670;&nbsp;</a></span>get_wavelength()</h2>
+<a id="a8565b51bb8b953dff27b70bf8211fc11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8565b51bb8b953dff27b70bf8211fc11">&#9670;&nbsp;</a></span>get_wavelength()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> int get_wavelength </td>
+          <td class="memname"> int sfp.SFP.get_wavelength </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -1991,87 +1585,8 @@ Bit 7 of byte 88 is MSB, bit 0 of byte 89 is LSB. V(Slope) should be set to
 </pre> 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="adca67f5c65a83622c6676c38551d13ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adca67f5c65a83622c6676c38551d13ba">&#9670;&nbsp;</a></span>calibration_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">calibration_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a18340f2f2342933b54b1dc8e6c0ed797"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18340f2f2342933b54b1dc8e6c0ed797">&#9670;&nbsp;</a></span>CalibrationType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsfp_1_1SFP_1_1CalibrationType.html">CalibrationType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aee86f1d3effbada065421301be392235"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee86f1d3effbada065421301be392235">&#9670;&nbsp;</a></span>memory_pages</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">memory_pages</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae0d43da0a2ae08745512bf8108a84819"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0d43da0a2ae08745512bf8108a84819">&#9670;&nbsp;</a></span>page_a0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">page_a0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0d9d611847d8eb1db13f399d0bc1f8b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d9d611847d8eb1db13f399d0bc1f8b2">&#9670;&nbsp;</a></span>page_a2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">page_a2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/modules/core/<a class="el" href="sfp_8py.html">sfp.py</a></li>
+<li>src/modules/core/sfp.py</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

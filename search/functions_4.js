@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['display_5fmonitor_5fdialog_400',['display_monitor_dialog',['../classwindow_1_1Window.html#a0e0caee2d67f4c992cd236fac9c7f882',1,'window::Window']]],
-  ['display_5fsfp_5fmemory_5fmap_401',['display_sfp_memory_map',['../classwindow_1_1Window.html#a98d36fd1cca93c800d265dbe802723c2',1,'window::Window']]]
+  ['send_5fcommand_5ffrom_5fui_175',['send_command_from_ui',['../classnetwork__threads_1_1TcpServerThread.html#aa7cbf9f451527522ae428691bb89ce1c',1,'network_threads::TcpServerThread']]],
+  ['sendcommand_176',['sendCommand',['../classtcp__server_1_1MyTCPServer.html#a40b3c1f07dd9635c82ce4dc2e3065bbe',1,'tcp_server::MyTCPServer']]]
 ];

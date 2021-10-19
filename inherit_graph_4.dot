@@ -4,5 +4,9 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="Message",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmessage_1_1Message.html",tooltip=" "];
+  Node11 [label="QThread",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="network_threads.Broadcast\lThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnetwork__threads_1_1BroadcastThread.html",tooltip=" "];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="network_threads.TcpServer\lThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classnetwork__threads_1_1TcpServerThread.html",tooltip=" "];
 }

@@ -1,24 +1,4 @@
 var searchData=
 [
-  ['main_214',['main',['../namespacemain.html',1,'main'],['../namespacemain.html#af613cea4cba4fb7de8e40896b3368945',1,'main.main()'],['../namespacecreate__sfp__database.html#aee1bd53f77708474ba32885b881315b3',1,'create_sfp_database.main()']]],
-  ['main_2epy_215',['main.py',['../main_8py.html',1,'']]],
-  ['main_5fwindow_5fclose_5fevent_5fhandler_216',['main_window_close_event_handler',['../classnetwork__threads_1_1BroadcastThread.html#a802c136d1d15f4c0c1409a357166d463',1,'network_threads.BroadcastThread.main_window_close_event_handler()'],['../classnetwork__threads_1_1TcpServerThread.html#a802c136d1d15f4c0c1409a357166d463',1,'network_threads.TcpServerThread.main_window_close_event_handler()']]],
-  ['mainwindow_217',['MainWindow',['../namespacewindow__autogen.html#afe4916ce8ba678822daad9c9f8596772',1,'window_autogen']]],
-  ['measurementmessage_218',['MeasurementMessage',['../classmessage_1_1MeasurementMessage.html',1,'message']]],
-  ['memory_5fmap_5fdialog_219',['memory_map_dialog',['../namespacememory__map__dialog.html',1,'']]],
-  ['memory_5fmap_5fdialog_2epy_220',['memory_map_dialog.py',['../memory__map__dialog_8py.html',1,'']]],
-  ['memory_5fmap_5fdialog_5fautogen_221',['memory_map_dialog_autogen',['../namespacememory__map__dialog__autogen.html',1,'']]],
-  ['memory_5fmap_5fdialog_5fautogen_2epy_222',['memory_map_dialog_autogen.py',['../memory__map__dialog__autogen_8py.html',1,'']]],
-  ['memory_5fpages_223',['memory_pages',['../classsfp_1_1SFP.html#aee86f1d3effbada065421301be392235',1,'sfp::SFP']]],
-  ['memorymapdialog_224',['MemoryMapDialog',['../classmemory__map__dialog_1_1MemoryMapDialog.html',1,'memory_map_dialog']]],
-  ['message_225',['Message',['../classmessage_1_1Message.html',1,'Message'],['../namespacemessage.html',1,'message']]],
-  ['message_2epy_226',['message.py',['../message_8py.html',1,'']]],
-  ['messagecode_227',['MessageCode',['../classmessage_1_1MessageCode.html',1,'message']]],
-  ['monitor_5fdialog_228',['monitor_dialog',['../namespacemonitor__dialog.html',1,'']]],
-  ['monitor_5fdialog_2epy_229',['monitor_dialog.py',['../monitor__dialog_8py.html',1,'']]],
-  ['monitor_5fdialog_5fautogen_230',['monitor_dialog_autogen',['../namespacemonitor__dialog__autogen.html',1,'']]],
-  ['monitor_5fdialog_5fautogen_2epy_231',['monitor_dialog_autogen.py',['../monitor__dialog__autogen_8py.html',1,'']]],
-  ['monitordialog_232',['MonitorDialog',['../classmonitor__dialog_1_1MonitorDialog.html',1,'monitor_dialog']]],
-  ['monitorsfpbutton_233',['monitorSfpButton',['../classwindow__autogen_1_1Ui__MainWindow.html#a8c8f6b61efde952330871eee53eff804',1,'window_autogen::Ui_MainWindow']]],
-  ['mytcpserver_234',['MyTCPServer',['../classtcp__server_1_1MyTCPServer.html',1,'tcp_server']]]
+  ['window_88',['Window',['../classwindow_1_1Window.html',1,'window']]]
 ];
