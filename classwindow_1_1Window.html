@@ -100,9 +100,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a42e2c5f6b3b2d25fd6d144a96c3f0e16"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a42e2c5f6b3b2d25fd6d144a96c3f0e16">connectSignalSlots</a> (self)</td></tr>
 <tr class="separator:a42e2c5f6b3b2d25fd6d144a96c3f0e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e0caee2d67f4c992cd236fac9c7f882"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a0e0caee2d67f4c992cd236fac9c7f882">display_monitor_dialog</a> (self)</td></tr>
+<tr class="memdesc:a0e0caee2d67f4c992cd236fac9c7f882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to display the diagnostic monitoring dialog.  <a href="classwindow_1_1Window.html#a0e0caee2d67f4c992cd236fac9c7f882">More...</a><br /></td></tr>
 <tr class="separator:a0e0caee2d67f4c992cd236fac9c7f882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98d36fd1cca93c800d265dbe802723c2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a98d36fd1cca93c800d265dbe802723c2">display_sfp_memory_map</a> (self, clicked_model_index)</td></tr>
 <tr class="separator:a98d36fd1cca93c800d265dbe802723c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acde955412d1545212849cd178ee46517"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#acde955412d1545212849cd178ee46517">handle_diagnostic_timer_timeout</a> (self)</td></tr>
+<tr class="separator:acde955412d1545212849cd178ee46517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae77100f6d213f69f9069d2097c1558c6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#ae77100f6d213f69f9069d2097c1558c6">handle_init_diagnostic_a0</a> (self, ReadRegisterMessage cmd)</td></tr>
+<tr class="separator:ae77100f6d213f69f9069d2097c1558c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a726350379dee5bfbeb05887320494a98"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a726350379dee5bfbeb05887320494a98">handle_init_diagnostic_a2</a> (self, ReadRegisterMessage cmd)</td></tr>
+<tr class="separator:a726350379dee5bfbeb05887320494a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf6b50cfdda5cfeac7ef377ff669679"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#abcf6b50cfdda5cfeac7ef377ff669679">handle_real_time_refresh</a> (self, ReadRegisterMessage cmd)</td></tr>
+<tr class="separator:abcf6b50cfdda5cfeac7ef377ff669679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7380db29220dcb7f91dac6d27a0a7c5a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a7380db29220dcb7f91dac6d27a0a7c5a">handle_remote_io_error</a> (self, Message cmd)</td></tr>
+<tr class="separator:a7380db29220dcb7f91dac6d27a0a7c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d0163af76c6f3964acf522d1ce13990"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a0d0163af76c6f3964acf522d1ce13990">handleUdpClientMessage</a> (self, Tuple contents_ip_port_tuple)</td></tr>
 <tr class="separator:a0d0163af76c6f3964acf522d1ce13990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ea723e101c17679b422b3a42898c74e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwindow_1_1Window.html#a0ea723e101c17679b422b3a42898c74e">tcpClientConnectHandler</a> (self, object data)</td></tr>
@@ -318,6 +329,9 @@ a single selected SFP/SFP+ persona.
       </table>
 </div><div class="memdoc">
 
+<p>Function to display the diagnostic monitoring dialog. </p>
+<p>If the user has selected a connected Docking Station, it opens a diagnostic monitoring dialog that allows the user to see the diagnostics of the SFP module. </p>
+
 </div>
 </div>
 <a id="a98d36fd1cca93c800d265dbe802723c2"></a>
@@ -337,6 +351,136 @@ a single selected SFP/SFP+ persona.
           <td></td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>clicked_model_index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acde955412d1545212849cd178ee46517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acde955412d1545212849cd178ee46517">&#9670;&nbsp;</a></span>handle_diagnostic_timer_timeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def handle_diagnostic_timer_timeout </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae77100f6d213f69f9069d2097c1558c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae77100f6d213f69f9069d2097c1558c6">&#9670;&nbsp;</a></span>handle_init_diagnostic_a0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def handle_init_diagnostic_a0 </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ReadRegisterMessage&#160;</td>
+          <td class="paramname"><em>cmd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a726350379dee5bfbeb05887320494a98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a726350379dee5bfbeb05887320494a98">&#9670;&nbsp;</a></span>handle_init_diagnostic_a2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def handle_init_diagnostic_a2 </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ReadRegisterMessage&#160;</td>
+          <td class="paramname"><em>cmd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcf6b50cfdda5cfeac7ef377ff669679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcf6b50cfdda5cfeac7ef377ff669679">&#9670;&nbsp;</a></span>handle_real_time_refresh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def handle_real_time_refresh </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ReadRegisterMessage&#160;</td>
+          <td class="paramname"><em>cmd</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7380db29220dcb7f91dac6d27a0a7c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7380db29220dcb7f91dac6d27a0a7c5a">&#9670;&nbsp;</a></span>handle_remote_io_error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def handle_remote_io_error </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Message&#160;</td>
+          <td class="paramname"><em>cmd</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

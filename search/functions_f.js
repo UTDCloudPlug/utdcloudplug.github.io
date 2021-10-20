@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['unpackmeasurementmessagebytes_515',['unpackMeasurementMessageBytes',['../namespacemessage.html#a778e7853c9d67794706074dd1e286292',1,'message']]],
-  ['unpackrawbytes_516',['unpackRawBytes',['../namespacemessage.html#a83349326674c8b33c1bbc3ee424c82b2',1,'message']]],
-  ['updatetable_517',['updateTable',['../classmemory__map__dialog_1_1MemoryMapDialog.html#acc944653192c1c5c286dd2bf357ba6ff',1,'memory_map_dialog::MemoryMapDialog']]],
-  ['updateuisignalhandler_518',['updateUiSignalHandler',['../classwindow_1_1Window.html#a644eb747f04d1725110deefa37cecbbd',1,'window::Window']]]
+  ['tcpclientconnecthandler_552',['tcpClientConnectHandler',['../classwindow_1_1Window.html#a0ea723e101c17679b422b3a42898c74e',1,'window::Window']]],
+  ['tcpclientdisconnecthandler_553',['tcpClientDisconnectHandler',['../classwindow_1_1Window.html#a491ccecb3313328d60483cf542372bd8',1,'window::Window']]],
+  ['to_5fnetwork_5fmessage_554',['to_network_message',['../classmessage_1_1Message.html#a2e70d248e0afc5f5cfa078abefec338d',1,'message.Message.to_network_message()'],['../classmessage_1_1ReadRegisterMessage.html#a2e70d248e0afc5f5cfa078abefec338d',1,'message.ReadRegisterMessage.to_network_message()'],['../classmessage_1_1MeasurementMessage.html#a2e70d248e0afc5f5cfa078abefec338d',1,'message.MeasurementMessage.to_network_message()']]]
 ];

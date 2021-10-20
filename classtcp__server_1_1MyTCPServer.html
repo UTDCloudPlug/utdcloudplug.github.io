@@ -99,10 +99,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3d2327034276a4e8a76dbfe8c7e9dcf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf68396af5c161022c3dcc7a85892b95"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#adf68396af5c161022c3dcc7a85892b95">openSession</a> (self)</td></tr>
 <tr class="separator:adf68396af5c161022c3dcc7a85892b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f8d7837e329ade837b94f3b891434c3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a2f8d7837e329ade837b94f3b891434c3">processClientMessage</a> (self, str ip, int port, bytes raw_bytes)</td></tr>
-<tr class="separator:a2f8d7837e329ade837b94f3b891434c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cee72cfe27d368c73c44010a32d11ad"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a1cee72cfe27d368c73c44010a32d11ad">sendCommand</a> (self, str destination_ip, MessageCode code, str msg)</td></tr>
-<tr class="separator:a1cee72cfe27d368c73c44010a32d11ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7b7a2b43e10f398b602a116a096d540"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#aa7b7a2b43e10f398b602a116a096d540">processClientMessage</a> (self, str ip, int port, Union[Message, ReadRegisterMessage] command)</td></tr>
+<tr class="separator:aa7b7a2b43e10f398b602a116a096d540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408fec7d8cfff8d0397ff286e9e5d26a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a408fec7d8cfff8d0397ff286e9e5d26a">sendCommand</a> (self, str destination_ip, Union[Message, ReadRegisterMessage] command)</td></tr>
+<tr class="separator:a408fec7d8cfff8d0397ff286e9e5d26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d8c4d89e28e23eb77697f338a767e24"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a3d8c4d89e28e23eb77697f338a767e24">sendCommandSignalHandler</a> (self, ip_msg_tuple)</td></tr>
 <tr class="separator:a3d8c4d89e28e23eb77697f338a767e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -127,8 +127,16 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a4eee3f074b2157f443b28a7331e85445"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7279fdcb1d36c886c2839a487d5a28d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a7279fdcb1d36c886c2839a487d5a28d7">client_disconnected_signal</a> = pyqtSignal(object)</td></tr>
 <tr class="separator:a7279fdcb1d36c886c2839a487d5a28d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab008d185d879858f658bb938493e0ed1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#ab008d185d879858f658bb938493e0ed1">diagnostic_init_a0_signal</a> = pyqtSignal(ReadRegisterMessage)</td></tr>
+<tr class="separator:ab008d185d879858f658bb938493e0ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7051340adee989c6fb4cd2ee1548488d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a7051340adee989c6fb4cd2ee1548488d">diagnostic_init_a2_signal</a> = pyqtSignal(ReadRegisterMessage)</td></tr>
+<tr class="separator:a7051340adee989c6fb4cd2ee1548488d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a645e32e71e3cdab2473d9023157c7bc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a645e32e71e3cdab2473d9023157c7bc7">log_signal</a> = pyqtSignal(object)</td></tr>
 <tr class="separator:a645e32e71e3cdab2473d9023157c7bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb793383ad5a96a46fd64ddd14d4ef6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#afeb793383ad5a96a46fd64ddd14d4ef6">real_time_refresh_signal</a> = pyqtSignal(ReadRegisterMessage)</td></tr>
+<tr class="separator:afeb793383ad5a96a46fd64ddd14d4ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15544f091fe2d87f8fd58d78adef0c33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a15544f091fe2d87f8fd58d78adef0c33">remote_io_error_signal</a> = pyqtSignal(Message)</td></tr>
+<tr class="separator:a15544f091fe2d87f8fd58d78adef0c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a052bcae1785982bfacc0645be0abfc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtcp__server_1_1MyTCPServer.html#a8a052bcae1785982bfacc0645be0abfc">update_ui_signal</a> = pyqtSignal(MessageCode)</td></tr>
 <tr class="separator:a8a052bcae1785982bfacc0645be0abfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -292,8 +300,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2f8d7837e329ade837b94f3b891434c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f8d7837e329ade837b94f3b891434c3">&#9670;&nbsp;</a></span>processClientMessage()</h2>
+<a id="aa7b7a2b43e10f398b602a116a096d540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7b7a2b43e10f398b602a116a096d540">&#9670;&nbsp;</a></span>processClientMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,8 +327,8 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bytes&#160;</td>
-          <td class="paramname"><em>raw_bytes</em>&#160;</td>
+          <td class="paramtype">Union[Message, ReadRegisterMessage]&#160;</td>
+          <td class="paramname"><em>command</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -332,8 +340,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1cee72cfe27d368c73c44010a32d11ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cee72cfe27d368c73c44010a32d11ad">&#9670;&nbsp;</a></span>sendCommand()</h2>
+<a id="a408fec7d8cfff8d0397ff286e9e5d26a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a408fec7d8cfff8d0397ff286e9e5d26a">&#9670;&nbsp;</a></span>sendCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,14 +361,8 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MessageCode&#160;</td>
-          <td class="paramname"><em>code</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">str&#160;</td>
-          <td class="paramname"><em>msg</em>&#160;</td>
+          <td class="paramtype">Union[Message, ReadRegisterMessage]&#160;</td>
+          <td class="paramname"><em>command</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -474,6 +476,50 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab008d185d879858f658bb938493e0ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab008d185d879858f658bb938493e0ed1">&#9670;&nbsp;</a></span>diagnostic_init_a0_signal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">diagnostic_init_a0_signal = pyqtSignal(ReadRegisterMessage)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7051340adee989c6fb4cd2ee1548488d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7051340adee989c6fb4cd2ee1548488d">&#9670;&nbsp;</a></span>diagnostic_init_a2_signal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">diagnostic_init_a2_signal = pyqtSignal(ReadRegisterMessage)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aee1515ff9b2ed9b586e01ddc732e81e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee1515ff9b2ed9b586e01ddc732e81e5">&#9670;&nbsp;</a></span>expected_clients</h2>
 
@@ -534,6 +580,50 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">PORT</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afeb793383ad5a96a46fd64ddd14d4ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeb793383ad5a96a46fd64ddd14d4ef6">&#9670;&nbsp;</a></span>real_time_refresh_signal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">real_time_refresh_signal = pyqtSignal(ReadRegisterMessage)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15544f091fe2d87f8fd58d78adef0c33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15544f091fe2d87f8fd58d78adef0c33">&#9670;&nbsp;</a></span>remote_io_error_signal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">remote_io_error_signal = pyqtSignal(Message)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

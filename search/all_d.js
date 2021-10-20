@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['opensession_237',['openSession',['../classtcp__server_1_1MyTCPServer.html#adf68396af5c161022c3dcc7a85892b95',1,'tcp_server::MyTCPServer']]]
+  ['network_5fthreads_255',['network_threads',['../namespacenetwork__threads.html',1,'']]],
+  ['network_5fthreads_2epy_256',['network_threads.py',['../network__threads_8py.html',1,'']]]
 ];
