@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['processclientmessage_542',['processClientMessage',['../classtcp__server_1_1MyTCPServer.html#aa7b7a2b43e10f398b602a116a096d540',1,'tcp_server::MyTCPServer']]]
+  ['print_5fsfp_5fmemory_592',['print_sfp_memory',['../namespacetest__sfp__methods.html#a3df0471398f76e40f14b3de86b622c9f',1,'test_sfp_methods']]],
+  ['process_5fclient_5fmessage_593',['process_client_message',['../classtcp__server_1_1TCPServer.html#a599e8d860fb47e8df9816a70e4f6e266',1,'tcp_server::TCPServer']]]
 ];

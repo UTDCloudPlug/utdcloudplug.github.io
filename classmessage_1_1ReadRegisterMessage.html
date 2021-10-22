@@ -87,6 +87,7 @@ Inheritance diagram for ReadRegisterMessage:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e70d248e0afc5f5cfa078abefec338d"><td class="memItemLeft" align="right" valign="top">bytes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmessage_1_1ReadRegisterMessage.html#a2e70d248e0afc5f5cfa078abefec338d">to_network_message</a> (self)</td></tr>
+<tr class="memdesc:a2e70d248e0afc5f5cfa078abefec338d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an object of type <a class="el" href="classmessage_1_1ReadRegisterMessage.html">ReadRegisterMessage</a> into a bytes object.  <a href="classmessage_1_1ReadRegisterMessage.html#a2e70d248e0afc5f5cfa078abefec338d">More...</a><br /></td></tr>
 <tr class="separator:a2e70d248e0afc5f5cfa078abefec338d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -105,6 +106,10 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts an object of type <a class="el" href="classmessage_1_1ReadRegisterMessage.html">ReadRegisterMessage</a> into a bytes object. </p>
+<p>The format string is dynamic, but packs 3 short integers (H) in network byte order, then the number of registers requested to read bytes (B), then the rest pad bytes (X). The maximum amount of bytes in a packet is 256.</p>
+<dl class="section return"><dt>Returns</dt><dd>The class message packed into bytes </dd></dl>
 
 <p>Reimplemented from <a class="el" href="classmessage_1_1Message.html#a2e70d248e0afc5f5cfa078abefec338d">Message</a>.</p>
 

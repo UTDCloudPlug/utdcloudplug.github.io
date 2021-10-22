@@ -77,16 +77,20 @@ $(function() {
 <div class="title">SFP Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class used for interpreting EEPROM values of SFP+ modules.  
+ <a href="classsfp_1_1SFP.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP_1_1CalibrationType.html">CalibrationType</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration for SFP+ calibration types.  <a href="classsfp_1_1SFP_1_1CalibrationType.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ac18d1520ba5eb32efd96a12c0e54ad"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a2ac18d1520ba5eb32efd96a12c0e54ad">__init__</a> (self, List[int] <a class="el" href="classsfp_1_1SFP.html#ae0d43da0a2ae08745512bf8108a84819">page_a0</a>, List[int] <a class="el" href="classsfp_1_1SFP.html#a0d9d611847d8eb1db13f399d0bc1f8b2">page_a2</a>)</td></tr>
-<tr class="memdesc:a2ac18d1520ba5eb32efd96a12c0e54ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalizes the <a class="el" href="classsfp_1_1SFP.html">SFP</a> module.  <a href="classsfp_1_1SFP.html#a2ac18d1520ba5eb32efd96a12c0e54ad">More...</a><br /></td></tr>
+<tr class="memdesc:a2ac18d1520ba5eb32efd96a12c0e54ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalizes the <a class="el" href="classsfp_1_1SFP.html" title="Class used for interpreting EEPROM values of SFP+ modules.">SFP</a> module.  <a href="classsfp_1_1SFP.html#a2ac18d1520ba5eb32efd96a12c0e54ad">More...</a><br /></td></tr>
 <tr class="separator:a2ac18d1520ba5eb32efd96a12c0e54ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e99ca03275f7b67b3167b900c5ff475"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a9e99ca03275f7b67b3167b900c5ff475">add_memory_page</a> (self, int page_code, List[int] page_values)</td></tr>
 <tr class="memdesc:a9e99ca03275f7b67b3167b900c5ff475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associates a hex value key with a list of integers that represent a memory page from SFP+ EEPROM.  <a href="classsfp_1_1SFP.html#a9e99ca03275f7b67b3167b900c5ff475">More...</a><br /></td></tr>
@@ -279,14 +283,13 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a18340f2f2342933b54b1dc8e6c0ed797"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsfp_1_1SFP.html#a18340f2f2342933b54b1dc8e6c0ed797">CalibrationType</a></td></tr>
+<tr class="memdesc:a18340f2f2342933b54b1dc8e6c0ed797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the data values from page 0xA0 of the <a class="el" href="classsfp_1_1SFP.html" title="Class used for interpreting EEPROM values of SFP+ modules.">SFP</a> memory map.  <a href="classsfp_1_1SFP.html#a18340f2f2342933b54b1dc8e6c0ed797">More...</a><br /></td></tr>
 <tr class="separator:a18340f2f2342933b54b1dc8e6c0ed797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><pre class="fragment">Has two lists of integers that represent the memory map
-of SFP/SFP+ modules. The provided getter methods can return any
-information about the module, including vendor information, diagnostic
-monitoring support, and alarm/warning thresholds.
-</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="textblock"><p>Class used for interpreting EEPROM values of SFP+ modules. </p>
+<p>Has two lists of integers that represent the memory map of SFP/SFP+ modules. These are referred to by the I2C address of the memory, 0xA0 and 0xA2. These are sometimes referred to as 0x50 and 0x51, respective. The change is due to the 7-bit addressing supported by SFP+ modules. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2ac18d1520ba5eb32efd96a12c0e54ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2ac18d1520ba5eb32efd96a12c0e54ad">&#9670;&nbsp;</a></span>__init__()</h2>
 
@@ -319,7 +322,7 @@ monitoring support, and alarm/warning thresholds.
       </table>
 </div><div class="memdoc">
 
-<p>Initalizes the <a class="el" href="classsfp_1_1SFP.html">SFP</a> module. </p>
+<p>Initalizes the <a class="el" href="classsfp_1_1SFP.html" title="Class used for interpreting EEPROM values of SFP+ modules.">SFP</a> module. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">page_a0</td><td>Array of integers that hold the 0xA0 memory page of an SFP+ EEPROM </td></tr>
@@ -2085,6 +2088,9 @@ Bit 7 of byte 88 is MSB, bit 0 of byte 89 is LSB. V(Slope) should be set to
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Holds the data values from page 0xA0 of the <a class="el" href="classsfp_1_1SFP.html" title="Class used for interpreting EEPROM values of SFP+ modules.">SFP</a> memory map. </p>
+<p>Holds the data values from page 0xA2 of the <a class="el" href="classsfp_1_1SFP.html" title="Class used for interpreting EEPROM values of SFP+ modules.">SFP</a> memory map Dictionary of memory pages Holds the calibration type of the module </p>
 
 </div>
 </div>

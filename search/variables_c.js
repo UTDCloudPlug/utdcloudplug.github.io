@@ -1,9 +1,19 @@
 var searchData=
 [
-  ['selected_5fdisplay_5fmode_679',['selected_display_mode',['../classmemory__map__dialog_1_1MemoryMapDialog.html#a88d3dfd21d6b06ea932fc44dd81b02a6',1,'memory_map_dialog::MemoryMapDialog']]],
-  ['selected_5fmemory_5fpage_680',['selected_memory_page',['../classmemory__map__dialog_1_1MemoryMapDialog.html#abbdb2da15205c9102973c63ac787908b',1,'memory_map_dialog::MemoryMapDialog']]],
-  ['send_5fcommand_5fsignal_681',['send_command_signal',['../classwindow_1_1Window.html#af207d915a8c8d75d61319b1e3e399d47',1,'window::Window']]],
-  ['server_682',['server',['../classtcp__server_1_1MyTCPServer.html#a4acfaa4e2d9b21de60c9a6fc63cfaa3a',1,'tcp_server::MyTCPServer']]],
-  ['sizeof_5fh_683',['SIZEOF_H',['../namespacemessage.html#a7fabf25094b4bb18c7d7850f862378d8',1,'message']]],
-  ['statusbar_684',['statusbar',['../classwindow__autogen_1_1Ui__MainWindow.html#a3a4d3912c83b98a74b844cb010268c9a',1,'window_autogen::Ui_MainWindow']]]
+  ['read_5fsfp_5fregisters_736',['READ_SFP_REGISTERS',['../classmessage_1_1MessageCode.html#a4b44cb8f626e0a6393404ff285a40830',1,'message::MessageCode']]],
+  ['read_5fsfp_5fregisters_5fack_737',['READ_SFP_REGISTERS_ACK',['../classmessage_1_1MessageCode.html#a660f7b0879d8509e9eafc8dc30ae110d',1,'message::MessageCode']]],
+  ['readsfpmemorybutton_738',['readSfpMemoryButton',['../classwindow__autogen_1_1Ui__MainWindow.html#af1534804999023a459eba9bf280b6445',1,'window_autogen::Ui_MainWindow']]],
+  ['real_5ftime_5frefresh_739',['REAL_TIME_REFRESH',['../classmessage_1_1MessageCode.html#a414dba44823a996bc20a280910b70b66',1,'message::MessageCode']]],
+  ['real_5ftime_5frefresh_5fack_740',['REAL_TIME_REFRESH_ACK',['../classmessage_1_1MessageCode.html#adc877e9401e641c20f8ea8107431a1db',1,'message::MessageCode']]],
+  ['real_5ftime_5frefresh_5fsignal_741',['real_time_refresh_signal',['../classnetwork__threads_1_1TcpServerThread.html#afeb793383ad5a96a46fd64ddd14d4ef6',1,'network_threads.TcpServerThread.real_time_refresh_signal()'],['../classtcp__server_1_1TCPServer.html#afeb793383ad5a96a46fd64ddd14d4ef6',1,'tcp_server.TCPServer.real_time_refresh_signal()']]],
+  ['remote_5fio_5ferror_5fsignal_742',['remote_io_error_signal',['../classnetwork__threads_1_1TcpServerThread.html#a15544f091fe2d87f8fd58d78adef0c33',1,'network_threads.TcpServerThread.remote_io_error_signal()'],['../classtcp__server_1_1TCPServer.html#a15544f091fe2d87f8fd58d78adef0c33',1,'tcp_server.TCPServer.remote_io_error_signal()']]],
+  ['reprogrambutton_743',['reprogramButton',['../classwindow__autogen_1_1Ui__MainWindow.html#a141334037a389f528d5b130b87bc899b',1,'window_autogen::Ui_MainWindow']]],
+  ['runner_744',['runner',['../namespacetest__sfp__methods.html#a5f902080cdaea3e0b5488745da2c9481',1,'test_sfp_methods']]],
+  ['running_745',['running',['../classnetwork__threads_1_1BroadcastThread.html#a1a015fe02c9cea18a5cf62656e257c97',1,'network_threads::BroadcastThread']]],
+  ['rxpowerhighalarmlineedit_746',['rxPowerHighAlarmLineEdit',['../classmonitor__dialog__autogen_1_1Ui__Dialog.html#a7ffcc6a8ea6da7502754a4340bf59620',1,'monitor_dialog_autogen::Ui_Dialog']]],
+  ['rxpowerhighwarnlineedit_747',['rxPowerHighWarnLineEdit',['../classmonitor__dialog__autogen_1_1Ui__Dialog.html#aca28a33a67cb6142e35f5df429de6755',1,'monitor_dialog_autogen::Ui_Dialog']]],
+  ['rxpowerlabel_748',['rxPowerLabel',['../classmonitor__dialog__autogen_1_1Ui__Dialog.html#a8af16c05c0ebd2431a1325dbdbb681f2',1,'monitor_dialog_autogen::Ui_Dialog']]],
+  ['rxpowerlineedit_749',['rxPowerLineEdit',['../classmonitor__dialog__autogen_1_1Ui__Dialog.html#aaf373fd4cc35a218d5b7dc70590d830a',1,'monitor_dialog_autogen::Ui_Dialog']]],
+  ['rxpowerlowalarmlineedit_750',['rxPowerLowAlarmLineEdit',['../classmonitor__dialog__autogen_1_1Ui__Dialog.html#a907b7f998400f0dde08329b7a92f250d',1,'monitor_dialog_autogen::Ui_Dialog']]],
+  ['rxpowerlowwarnlineedit_751',['rxPowerLowWarnLineEdit',['../classmonitor__dialog__autogen_1_1Ui__Dialog.html#ab6f6a55ad40aa5e71f9b67155c51b7fe',1,'monitor_dialog_autogen::Ui_Dialog']]]
 ];

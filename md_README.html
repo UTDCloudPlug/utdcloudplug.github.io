@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CloudPlug Control: Cloudplug-Control</title>
+<title>CloudPlug Control: Introduction</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,10 +64,39 @@ $(function() {
 </div><!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Cloudplug-Control </div>  </div>
+<div class="title">Introduction </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Cloudplug Control software for UT Dallas CE Capstone Spring-Fall 2021 </p>
+<div class="textblock"><p>This is the Control Software for Team 1282's UT Dallas ECE capstone project for the Spring-Fall 2021 semesters. The team, known as "Team CloudPlug", consists of six EE majors and one CE major.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Team Members</h1>
+<h2><a class="anchor" id="autotoc_md2"></a>
+Electrical Engineering</h2>
+<ul>
+<li>Brandon Bearden</li>
+<li>Elizabeth Estrada</li>
+<li>Eduardo Hervert</li>
+<li>Jason Kim</li>
+<li>Nguyen Nguyen</li>
+<li>DongHyun Seo </li>
+</ul>
+<h2><a class="anchor" id="autotoc_md3"></a>
+Computer Engineering</h2>
+<ul>
+<li>Connor DeCamp (code author)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Project Abstract</h1>
+<p>SFP+ modules can transmit data at high speeds using many different types of cables. There are hundreds of different SFP+ modules from different vendors, and, theoretically, most of them should follow a standard. On each module is an EEPROM chip that stores vendor and diagnostic information which is used by a host to identify the device. However, not every module works with every host system. This leads to customers asking system vendors to support different SFP+ modules, which leads to dozens of software variants, test cases, and combinations per host-system. The issue is that each qualification test requires a person to physically insert and remove the module. This limits testing to a small number of switches featuring the SFP+ modules under test. Thus, qualification testing requires physical access to a limited resource which is time consuming.</p>
+<p>The main goal of this project is to design and build a proof-of-concept device, known as the CloudPlug, to qualify the control aspect of programmable pluggable interfaces. In other words, the CloudPlug should be able to mimic specific SFP+ modules and be accepted as genuine by the network switch. In order to do this, a docking station is needed to read and save the internal memory of vendor SFP+ modules. The docking station also allows users to monitor critical parameters of SFP+ modules in order to create stress-cases to program into the CloudPlug, which the CloudPlug can feed to the network switch it’s inserted into. The docking station is controllable through ethernet/IP and the CloudPlug is wirelessly controllable, both through a control software designed by the team. CloudPlugs would allow scaling testing resources by replicating vendor specific logic in software and swapping modules by remote configuration rather than physical replacement.</p>
+<h1><a class="anchor" id="autotoc_md5"></a>
+Dependencies</h1>
+<ul>
+<li>Python 3.8.10 or later</li>
+<li>PyQt5</li>
+<li>python-dotenv</li>
+<li>mysql-connector-python </li>
+</ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 <!-- start footer part -->
