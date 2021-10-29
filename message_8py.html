@@ -83,9 +83,10 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmessage_1_1Message.html">Message</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a way to represent CloudPlug protocol packets.  <a href="classmessage_1_1Message.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmessage_1_1MessageCode.html">MessageCode</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Codes for updating the user interface.  <a href="classmessage_1_1MessageCode.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classmessage_1_1Message.html" title="Defines a way to represent CloudPlug protocol packets.">Message</a> codes for CloudPlug network protocol.  <a href="classmessage_1_1MessageCode.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmessage_1_1ReadRegisterMessage.html">ReadRegisterMessage</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -97,16 +98,19 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa3280ee6c7eeb131430cc542b1e994ae"><td class="memItemLeft" align="right" valign="top">Message&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessage.html#aa3280ee6c7eeb131430cc542b1e994ae">bytesToMessage</a> (bytes raw_msg)</td></tr>
-<tr class="separator:aa3280ee6c7eeb131430cc542b1e994ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a010784f47b50aad0bc7cffb7d307c1cd"><td class="memItemLeft" align="right" valign="top">ReadRegisterMessage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessage.html#a010784f47b50aad0bc7cffb7d307c1cd">bytesToReadRegisterMessage</a> (bytes raw_msg)</td></tr>
-<tr class="separator:a010784f47b50aad0bc7cffb7d307c1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c230a117d03577f1564535e2a9257dc"><td class="memItemLeft" align="right" valign="top">Message&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessage.html#a9c230a117d03577f1564535e2a9257dc">bytes_to_message</a> (bytes raw_msg)</td></tr>
+<tr class="separator:a9c230a117d03577f1564535e2a9257dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f831a8d554cb22a1e5d9fe778255e00"><td class="memItemLeft" align="right" valign="top">ReadRegisterMessage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessage.html#a2f831a8d554cb22a1e5d9fe778255e00">bytes_to_read_register_message</a> (bytes raw_msg)</td></tr>
+<tr class="memdesc:a2f831a8d554cb22a1e5d9fe778255e00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a bytes object to a <a class="el" href="classmessage_1_1ReadRegisterMessage.html">ReadRegisterMessage</a> object.  <a href="namespacemessage.html#a2f831a8d554cb22a1e5d9fe778255e00">More...</a><br /></td></tr>
+<tr class="separator:a2f831a8d554cb22a1e5d9fe778255e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a35512672187e3c030d2a197c2dd4ba0d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessage.html#a35512672187e3c030d2a197c2dd4ba0d">MESSAGE_BYTES</a> = 256</td></tr>
+<tr class="memdesc:a35512672187e3c030d2a197c2dd4ba0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of bytes in a CloudPlug network protocol message.  <a href="namespacemessage.html#a35512672187e3c030d2a197c2dd4ba0d">More...</a><br /></td></tr>
 <tr class="separator:a35512672187e3c030d2a197c2dd4ba0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fabf25094b4bb18c7d7850f862378d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessage.html#a7fabf25094b4bb18c7d7850f862378d8">SIZEOF_H</a> = 2</td></tr>
+<tr class="memdesc:a7fabf25094b4bb18c7d7850f862378d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of bytes for the H formatter from the struct package.  <a href="namespacemessage.html#a7fabf25094b4bb18c7d7850f862378d8">More...</a><br /></td></tr>
 <tr class="separator:a7fabf25094b4bb18c7d7850f862378d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -118,6 +122,9 @@ Author</h1>
 </ul>
 <h1><a class="anchor" id="mod_history"></a>
 Modification History</h1>
+<ul>
+<li>Modified on 10/27/21 by Connor DeCamp </li>
+</ul>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

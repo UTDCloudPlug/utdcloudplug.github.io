@@ -80,25 +80,25 @@ Inheritance diagram for ReadRegisterMessage:</div>
  <div class="center">
   <img src="classmessage_1_1ReadRegisterMessage.png" usemap="#ReadRegisterMessage_map" alt=""/>
   <map id="ReadRegisterMessage_map" name="ReadRegisterMessage_map">
-<area href="classmessage_1_1Message.html" alt="Message" shape="rect" coords="0,0,138,24"/>
+<area href="classmessage_1_1Message.html" title="Defines a way to represent CloudPlug protocol packets." alt="Message" shape="rect" coords="0,0,138,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2e70d248e0afc5f5cfa078abefec338d"><td class="memItemLeft" align="right" valign="top">bytes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmessage_1_1ReadRegisterMessage.html#a2e70d248e0afc5f5cfa078abefec338d">to_network_message</a> (self)</td></tr>
-<tr class="memdesc:a2e70d248e0afc5f5cfa078abefec338d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an object of type <a class="el" href="classmessage_1_1ReadRegisterMessage.html">ReadRegisterMessage</a> into a bytes object.  <a href="classmessage_1_1ReadRegisterMessage.html#a2e70d248e0afc5f5cfa078abefec338d">More...</a><br /></td></tr>
-<tr class="separator:a2e70d248e0afc5f5cfa078abefec338d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f5ebd4edad47fbf7f968ed827e07b3"><td class="memItemLeft" align="right" valign="top">bytes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmessage_1_1ReadRegisterMessage.html#a07f5ebd4edad47fbf7f968ed827e07b3">to_bytes</a> (self)</td></tr>
+<tr class="memdesc:a07f5ebd4edad47fbf7f968ed827e07b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an object of type <a class="el" href="classmessage_1_1ReadRegisterMessage.html">ReadRegisterMessage</a> into a bytes object.  <a href="classmessage_1_1ReadRegisterMessage.html#a07f5ebd4edad47fbf7f968ed827e07b3">More...</a><br /></td></tr>
+<tr class="separator:a07f5ebd4edad47fbf7f968ed827e07b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2e70d248e0afc5f5cfa078abefec338d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e70d248e0afc5f5cfa078abefec338d">&#9670;&nbsp;</a></span>to_network_message()</h2>
+<a id="a07f5ebd4edad47fbf7f968ed827e07b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f5ebd4edad47fbf7f968ed827e07b3">&#9670;&nbsp;</a></span>to_bytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bytes to_network_message </td>
+          <td class="memname"> bytes to_bytes </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -111,7 +111,7 @@ Public Member Functions</h2></td></tr>
 <p>The format string is dynamic, but packs 3 short integers (H) in network byte order, then the number of registers requested to read bytes (B), then the rest pad bytes (X). The maximum amount of bytes in a packet is 256.</p>
 <dl class="section return"><dt>Returns</dt><dd>The class message packed into bytes </dd></dl>
 
-<p>Reimplemented from <a class="el" href="classmessage_1_1Message.html#a2e70d248e0afc5f5cfa078abefec338d">Message</a>.</p>
+<p>Reimplemented from <a class="el" href="classmessage_1_1Message.html#a07f5ebd4edad47fbf7f968ed827e07b3">Message</a>.</p>
 
 </div>
 </div>

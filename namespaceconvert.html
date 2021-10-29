@@ -75,13 +75,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a616fb6e28f85536925f6c8ac739ac1b0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a616fb6e28f85536925f6c8ac739ac1b0">bytes_to_tec_current</a> (int b1, int b0)</td></tr>
 <tr class="memdesc:a616fb6e28f85536925f6c8ac739ac1b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts bytes that represent TEC current to the actual TEC current value.  <a href="namespaceconvert.html#a616fb6e28f85536925f6c8ac739ac1b0">More...</a><br /></td></tr>
 <tr class="separator:a616fb6e28f85536925f6c8ac739ac1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a6039bcb8b0b13ef2885c17fe480e5c"><td class="memItemLeft" align="right" valign="top">Decimal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a7a6039bcb8b0b13ef2885c17fe480e5c">ieee754_to_int</a> (int b3, int b2, int b1, int b0)</td></tr>
-<tr class="memdesc:a7a6039bcb8b0b13ef2885c17fe480e5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes 4 bytes in IEEE 754 floating point format and converts it into a floating point number as per the IEEE 754 specification.  <a href="namespaceconvert.html#a7a6039bcb8b0b13ef2885c17fe480e5c">More...</a><br /></td></tr>
-<tr class="separator:a7a6039bcb8b0b13ef2885c17fe480e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a807dfb71fa269a62246ff631aadfe215"><td class="memItemLeft" align="right" valign="top">Decimal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a807dfb71fa269a62246ff631aadfe215">ieee754_to_decimal</a> (int b3, int b2, int b1, int b0)</td></tr>
+<tr class="memdesc:a807dfb71fa269a62246ff631aadfe215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes 4 bytes in IEEE 754 floating point format and converts it into a floating point number as per the IEEE 754 specification.  <a href="namespaceconvert.html#a807dfb71fa269a62246ff631aadfe215">More...</a><br /></td></tr>
+<tr class="separator:a807dfb71fa269a62246ff631aadfe215"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af28c1b9627ca348ef5741b482e19bcf4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#af28c1b9627ca348ef5741b482e19bcf4">offset_bytes_to_signed_twos_complement_int</a> (int b1, int b0)</td></tr>
 <tr class="memdesc:af28c1b9627ca348ef5741b482e19bcf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts two bytes formatted as b1 b0 in signed twos complement and converts them to an integer.  <a href="namespaceconvert.html#af28c1b9627ca348ef5741b482e19bcf4">More...</a><br /></td></tr>
 <tr class="separator:af28c1b9627ca348ef5741b482e19bcf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17aca38ccb755adf08281711ba80d3ba"><td class="memItemLeft" align="right" valign="top">Decimal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a17aca38ccb755adf08281711ba80d3ba">slope_bytes_to_unsigned_decimal</a> (int b1, int b0)</td></tr>
+<tr class="memdesc:a17aca38ccb755adf08281711ba80d3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes in 2 bytes, formatted as b1.b0 and returns the unsigned decimal equivalent.  <a href="namespaceconvert.html#a17aca38ccb755adf08281711ba80d3ba">More...</a><br /></td></tr>
 <tr class="separator:a17aca38ccb755adf08281711ba80d3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fe39590f712a5b569351d266c79e965"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a6fe39590f712a5b569351d266c79e965">temperature_bytes_to_signed_twos_complement_decimal</a> (int b1, int b0)</td></tr>
 <tr class="memdesc:a6fe39590f712a5b569351d266c79e965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes in 2 bytes, formatted as b1.b0 and returns the signed two's complement decimal equivalent.  <a href="namespaceconvert.html#a6fe39590f712a5b569351d266c79e965">More...</a><br /></td></tr>
@@ -126,14 +127,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a6039bcb8b0b13ef2885c17fe480e5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a6039bcb8b0b13ef2885c17fe480e5c">&#9670;&nbsp;</a></span>ieee754_to_int()</h2>
+<a id="a807dfb71fa269a62246ff631aadfe215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a807dfb71fa269a62246ff631aadfe215">&#9670;&nbsp;</a></span>ieee754_to_decimal()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> Decimal convert.ieee754_to_int </td>
+          <td class="memname"> Decimal convert.ieee754_to_decimal </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>b3</em>, </td>
@@ -211,7 +212,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">b1</td><td>Most significant byte </td></tr>
-    <tr><td class="paramname">b2</td><td>Least significant byte</td></tr>
+    <tr><td class="paramname">b0</td><td>Least significant byte</td></tr>
   </table>
   </dd>
 </dl>
@@ -244,14 +245,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Takes in 2 bytes, formatted as b1.b0 and returns the
-unsigned decimal equivalent. For example:
-    b1 = 1111 1111
-    b0 = 1111 1111
 
-Number it represents is 1111 1111.1111 1111
-which is 255 + (255) / 256
-</pre> 
+<p>Takes in 2 bytes, formatted as b1.b0 and returns the unsigned decimal equivalent. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b1</td><td>Most significant byte </td></tr>
+    <tr><td class="paramname">b0</td><td>Least significant byte </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a6fe39590f712a5b569351d266c79e965"></a>
@@ -284,7 +287,7 @@ which is 255 + (255) / 256
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">b1</td><td>Most significant byte </td></tr>
-    <tr><td class="paramname">b2</td><td>Least significant byte</td></tr>
+    <tr><td class="paramname">b0</td><td>Least significant byte</td></tr>
   </table>
   </dd>
 </dl>

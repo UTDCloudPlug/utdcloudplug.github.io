@@ -74,6 +74,9 @@ $(function() {
 <div class="title">Message Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Defines a way to represent CloudPlug protocol packets.  
+ <a href="classmessage_1_1Message.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Message:</div>
 <div class="dyncontent">
@@ -86,18 +89,21 @@ Inheritance diagram for Message:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2e70d248e0afc5f5cfa078abefec338d"><td class="memItemLeft" align="right" valign="top">bytes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmessage_1_1Message.html#a2e70d248e0afc5f5cfa078abefec338d">to_network_message</a> (self)</td></tr>
-<tr class="separator:a2e70d248e0afc5f5cfa078abefec338d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f5ebd4edad47fbf7f968ed827e07b3"><td class="memItemLeft" align="right" valign="top">bytes&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmessage_1_1Message.html#a07f5ebd4edad47fbf7f968ed827e07b3">to_bytes</a> (self)</td></tr>
+<tr class="memdesc:a07f5ebd4edad47fbf7f968ed827e07b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="classmessage_1_1Message.html" title="Defines a way to represent CloudPlug protocol packets.">Message</a> object into bytes using the struct package.  <a href="classmessage_1_1Message.html#a07f5ebd4edad47fbf7f968ed827e07b3">More...</a><br /></td></tr>
+<tr class="separator:a07f5ebd4edad47fbf7f968ed827e07b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2e70d248e0afc5f5cfa078abefec338d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e70d248e0afc5f5cfa078abefec338d">&#9670;&nbsp;</a></span>to_network_message()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Defines a way to represent CloudPlug protocol packets. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a07f5ebd4edad47fbf7f968ed827e07b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f5ebd4edad47fbf7f968ed827e07b3">&#9670;&nbsp;</a></span>to_bytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> bytes to_network_message </td>
+          <td class="memname"> bytes to_bytes </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -106,7 +112,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classmessage_1_1ReadRegisterMessage.html#a2e70d248e0afc5f5cfa078abefec338d">ReadRegisterMessage</a>.</p>
+<p>Converts a <a class="el" href="classmessage_1_1Message.html" title="Defines a way to represent CloudPlug protocol packets.">Message</a> object into bytes using the struct package. </p>
+<dl class="section return"><dt>Returns</dt><dd>The members of the <a class="el" href="classmessage_1_1Message.html" title="Defines a way to represent CloudPlug protocol packets.">Message</a> object represented as 256 bytes </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classmessage_1_1ReadRegisterMessage.html#a07f5ebd4edad47fbf7f968ed827e07b3">ReadRegisterMessage</a>.</p>
 
 </div>
 </div>
