@@ -64,7 +64,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">convert Namespace Reference</div>  </div>
 </div><!--header-->
@@ -72,21 +73,37 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a616fb6e28f85536925f6c8ac739ac1b0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a616fb6e28f85536925f6c8ac739ac1b0">bytes_to_tec_current</a> (int b1, int b0)</td></tr>
+<tr class="memitem:a616fb6e28f85536925f6c8ac739ac1b0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a616fb6e28f85536925f6c8ac739ac1b0">bytes_to_tec_current</a> (int <a class="el" href="namespaceconvert.html#ab79bcddb60b32e4a1c786cbd7b50ab5e">b1</a>, int <a class="el" href="namespaceconvert.html#a2488b3fc0cf41eafdb84b8dfd6af5547">b0</a>)</td></tr>
 <tr class="memdesc:a616fb6e28f85536925f6c8ac739ac1b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts bytes that represent TEC current to the actual TEC current value.  <a href="namespaceconvert.html#a616fb6e28f85536925f6c8ac739ac1b0">More...</a><br /></td></tr>
 <tr class="separator:a616fb6e28f85536925f6c8ac739ac1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a807dfb71fa269a62246ff631aadfe215"><td class="memItemLeft" align="right" valign="top">Decimal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a807dfb71fa269a62246ff631aadfe215">ieee754_to_decimal</a> (int b3, int b2, int b1, int b0)</td></tr>
+<tr class="memitem:a2dc7bcf2363621396cbf5ec6443385d1"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a2dc7bcf2363621396cbf5ec6443385d1">float_to_signed_twos_complement_bytes</a> (float number)</td></tr>
+<tr class="memdesc:a2dc7bcf2363621396cbf5ec6443385d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a number in the range [-127.996, 127.996] into two bytes, b1.b0 using signed two's complement.  <a href="namespaceconvert.html#a2dc7bcf2363621396cbf5ec6443385d1">More...</a><br /></td></tr>
+<tr class="separator:a2dc7bcf2363621396cbf5ec6443385d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd4527d18e2db92682649a5b6d9466f"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a0bd4527d18e2db92682649a5b6d9466f">float_to_unsigned_decimal_bytes</a> (float number)</td></tr>
+<tr class="memdesc:a0bd4527d18e2db92682649a5b6d9466f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a number in the range [0, 65535] to a sixteen bit unsigned decimal representation b1b0.  <a href="namespaceconvert.html#a0bd4527d18e2db92682649a5b6d9466f">More...</a><br /></td></tr>
+<tr class="separator:a0bd4527d18e2db92682649a5b6d9466f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a807dfb71fa269a62246ff631aadfe215"><td class="memItemLeft" align="right" valign="top">Decimal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a807dfb71fa269a62246ff631aadfe215">ieee754_to_decimal</a> (int b3, int b2, int <a class="el" href="namespaceconvert.html#ab79bcddb60b32e4a1c786cbd7b50ab5e">b1</a>, int <a class="el" href="namespaceconvert.html#a2488b3fc0cf41eafdb84b8dfd6af5547">b0</a>)</td></tr>
 <tr class="memdesc:a807dfb71fa269a62246ff631aadfe215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes 4 bytes in IEEE 754 floating point format and converts it into a floating point number as per the IEEE 754 specification.  <a href="namespaceconvert.html#a807dfb71fa269a62246ff631aadfe215">More...</a><br /></td></tr>
 <tr class="separator:a807dfb71fa269a62246ff631aadfe215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af28c1b9627ca348ef5741b482e19bcf4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#af28c1b9627ca348ef5741b482e19bcf4">offset_bytes_to_signed_twos_complement_int</a> (int b1, int b0)</td></tr>
+<tr class="memitem:af28c1b9627ca348ef5741b482e19bcf4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#af28c1b9627ca348ef5741b482e19bcf4">offset_bytes_to_signed_twos_complement_int</a> (int <a class="el" href="namespaceconvert.html#ab79bcddb60b32e4a1c786cbd7b50ab5e">b1</a>, int <a class="el" href="namespaceconvert.html#a2488b3fc0cf41eafdb84b8dfd6af5547">b0</a>)</td></tr>
 <tr class="memdesc:af28c1b9627ca348ef5741b482e19bcf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts two bytes formatted as b1 b0 in signed twos complement and converts them to an integer.  <a href="namespaceconvert.html#af28c1b9627ca348ef5741b482e19bcf4">More...</a><br /></td></tr>
 <tr class="separator:af28c1b9627ca348ef5741b482e19bcf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17aca38ccb755adf08281711ba80d3ba"><td class="memItemLeft" align="right" valign="top">Decimal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a17aca38ccb755adf08281711ba80d3ba">slope_bytes_to_unsigned_decimal</a> (int b1, int b0)</td></tr>
+<tr class="memitem:a17aca38ccb755adf08281711ba80d3ba"><td class="memItemLeft" align="right" valign="top">Decimal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a17aca38ccb755adf08281711ba80d3ba">slope_bytes_to_unsigned_decimal</a> (int <a class="el" href="namespaceconvert.html#ab79bcddb60b32e4a1c786cbd7b50ab5e">b1</a>, int <a class="el" href="namespaceconvert.html#a2488b3fc0cf41eafdb84b8dfd6af5547">b0</a>)</td></tr>
 <tr class="memdesc:a17aca38ccb755adf08281711ba80d3ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes in 2 bytes, formatted as b1.b0 and returns the unsigned decimal equivalent.  <a href="namespaceconvert.html#a17aca38ccb755adf08281711ba80d3ba">More...</a><br /></td></tr>
 <tr class="separator:a17aca38ccb755adf08281711ba80d3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fe39590f712a5b569351d266c79e965"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a6fe39590f712a5b569351d266c79e965">temperature_bytes_to_signed_twos_complement_decimal</a> (int b1, int b0)</td></tr>
+<tr class="memitem:a6fe39590f712a5b569351d266c79e965"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a6fe39590f712a5b569351d266c79e965">temperature_bytes_to_signed_twos_complement_decimal</a> (int <a class="el" href="namespaceconvert.html#ab79bcddb60b32e4a1c786cbd7b50ab5e">b1</a>, int <a class="el" href="namespaceconvert.html#a2488b3fc0cf41eafdb84b8dfd6af5547">b0</a>)</td></tr>
 <tr class="memdesc:a6fe39590f712a5b569351d266c79e965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes in 2 bytes, formatted as b1.b0 and returns the signed two's complement decimal equivalent.  <a href="namespaceconvert.html#a6fe39590f712a5b569351d266c79e965">More...</a><br /></td></tr>
 <tr class="separator:a6fe39590f712a5b569351d266c79e965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0512b555cdde870461922a7abf307a5c"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a0512b555cdde870461922a7abf307a5c">unsigned_decimal_to_bytes</a> (Decimal number)</td></tr>
+<tr class="memdesc:a0512b555cdde870461922a7abf307a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a number in the range [0, 255.9961] into two bytes, b1.b0.  <a href="namespaceconvert.html#a0512b555cdde870461922a7abf307a5c">More...</a><br /></td></tr>
+<tr class="separator:a0512b555cdde870461922a7abf307a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2488b3fc0cf41eafdb84b8dfd6af5547"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a2488b3fc0cf41eafdb84b8dfd6af5547">b0</a></td></tr>
+<tr class="separator:a2488b3fc0cf41eafdb84b8dfd6af5547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79bcddb60b32e4a1c786cbd7b50ab5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#ab79bcddb60b32e4a1c786cbd7b50ab5e">b1</a></td></tr>
+<tr class="separator:ab79bcddb60b32e4a1c786cbd7b50ab5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a616fb6e28f85536925f6c8ac739ac1b0"></a>
@@ -124,6 +141,60 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A value in the range [-3276.8, 3276.7] </dd></dl>
+
+</div>
+</div>
+<a id="a2dc7bcf2363621396cbf5ec6443385d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dc7bcf2363621396cbf5ec6443385d1">&#9670;&nbsp;</a></span>float_to_signed_twos_complement_bytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> List[int] convert.float_to_signed_twos_complement_bytes </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>number</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a number in the range [-127.996, 127.996] into two bytes, b1.b0 using signed two's complement. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">number</td><td>The floating point value to be converted </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list containing the two bytes [b1, b0] </dd></dl>
+
+</div>
+</div>
+<a id="a0bd4527d18e2db92682649a5b6d9466f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd4527d18e2db92682649a5b6d9466f">&#9670;&nbsp;</a></span>float_to_unsigned_decimal_bytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> List[int] convert.float_to_unsigned_decimal_bytes </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>number</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a number in the range [0, 65535] to a sixteen bit unsigned decimal representation b1b0. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">number</td><td>The floating point number to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list [b1, b0] of bytes that when formatted as b1b0 is the binary representation of the input number. </dd></dl>
 
 </div>
 </div>
@@ -292,6 +363,62 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A float in the range [-127.996, +127.996] </dd></dl>
+
+</div>
+</div>
+<a id="a0512b555cdde870461922a7abf307a5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0512b555cdde870461922a7abf307a5c">&#9670;&nbsp;</a></span>unsigned_decimal_to_bytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> List[int] convert.unsigned_decimal_to_bytes </td>
+          <td>(</td>
+          <td class="paramtype">Decimal&#160;</td>
+          <td class="paramname"><em>number</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a number in the range [0, 255.9961] into two bytes, b1.b0. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">number</td><td>The number to be converted </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list containing the two bytes [b1, b0] </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a2488b3fc0cf41eafdb84b8dfd6af5547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2488b3fc0cf41eafdb84b8dfd6af5547">&#9670;&nbsp;</a></span>b0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">b0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab79bcddb60b32e4a1c786cbd7b50ab5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab79bcddb60b32e4a1c786cbd7b50ab5e">&#9670;&nbsp;</a></span>b1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">b1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

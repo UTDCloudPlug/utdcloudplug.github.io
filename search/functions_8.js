@@ -1,17 +1,19 @@
 var searchData=
 [
-  ['handle_5fclient_5fdisconnect_562',['handle_client_disconnect',['../classtcp__server_1_1TCPServer.html#a9200edd2f9af6b6820285da8e7a3a106',1,'tcp_server::TCPServer']]],
-  ['handle_5fclient_5fmessage_563',['handle_client_message',['../classtcp__server_1_1TCPServer.html#a5edcb85f3591986f57933d2c1180b19c',1,'tcp_server::TCPServer']]],
-  ['handle_5fclose_5fevent_564',['handle_close_event',['../classmemory__map__dialog_1_1MemoryMapDialog.html#ac54aa40ed3462e75d9913adf13b1d2c5',1,'memory_map_dialog::MemoryMapDialog']]],
-  ['handle_5fdiagnostic_5ftimer_5ftimeout_565',['handle_diagnostic_timer_timeout',['../classwindow_1_1Window.html#acde955412d1545212849cd178ee46517',1,'window::Window']]],
-  ['handle_5finit_5fdiagnostic_5fa0_566',['handle_init_diagnostic_a0',['../classwindow_1_1Window.html#ae77100f6d213f69f9069d2097c1558c6',1,'window::Window']]],
-  ['handle_5finit_5fdiagnostic_5fa2_567',['handle_init_diagnostic_a2',['../classwindow_1_1Window.html#a726350379dee5bfbeb05887320494a98',1,'window::Window']]],
-  ['handle_5fnew_5fconnection_568',['handle_new_connection',['../classtcp__server_1_1TCPServer.html#add0a4c80f21565948fbbfdfceb213ccb',1,'tcp_server::TCPServer']]],
-  ['handle_5freal_5ftime_5frefresh_569',['handle_real_time_refresh',['../classwindow_1_1Window.html#abcf6b50cfdda5cfeac7ef377ff669679',1,'window::Window']]],
-  ['handle_5fremote_5fio_5ferror_570',['handle_remote_io_error',['../classwindow_1_1Window.html#a7380db29220dcb7f91dac6d27a0a7c5a',1,'window::Window']]],
-  ['handle_5fsend_5fcommand_5fsignal_571',['handle_send_command_signal',['../classtcp__server_1_1TCPServer.html#af14b4a39f8049f3e145d6a94c7a04c08',1,'tcp_server::TCPServer']]],
-  ['handle_5ftcp_5fclient_5fconnect_572',['handle_tcp_client_connect',['../classwindow_1_1Window.html#a5a6df40d3b8258405e2670c8966f27a5',1,'window::Window']]],
-  ['handle_5ftcp_5fclient_5fdisconnect_573',['handle_tcp_client_disconnect',['../classwindow_1_1Window.html#ace38c82182595fe89bf4fc645a5dce8f',1,'window::Window']]],
-  ['handle_5fudp_5fclient_5fmessage_574',['handle_udp_client_message',['../classwindow_1_1Window.html#a41fd79881cc83ee58ad426f7b33aa819',1,'window::Window']]],
-  ['handle_5fupdate_5fui_5fsignal_575',['handle_update_ui_signal',['../classwindow_1_1Window.html#ab9e9398f8ce7a5e26b6280cc3ba759ad',1,'window::Window']]]
+  ['handle_5fclient_5fdisconnect_642',['handle_client_disconnect',['../classtcp__server_1_1TCPServer.html#a9200edd2f9af6b6820285da8e7a3a106',1,'tcp_server::TCPServer']]],
+  ['handle_5fclient_5fmessage_643',['handle_client_message',['../classtcp__server_1_1TCPServer.html#a5edcb85f3591986f57933d2c1180b19c',1,'tcp_server::TCPServer']]],
+  ['handle_5fcombobox_5fselection_5fchange_644',['handle_combobox_selection_change',['../classcreate__stress__scenario__dialog_1_1CreateStressScenarioDialog.html#abf98b0e5a779e0d3f26b700240b437b8',1,'create_stress_scenario_dialog::CreateStressScenarioDialog']]],
+  ['handle_5fdiagnostic_5ftimer_5ftimeout_645',['handle_diagnostic_timer_timeout',['../classwindow_1_1Window.html#acde955412d1545212849cd178ee46517',1,'window::Window']]],
+  ['handle_5finit_5fdiagnostic_5fa0_646',['handle_init_diagnostic_a0',['../classwindow_1_1Window.html#ae77100f6d213f69f9069d2097c1558c6',1,'window::Window']]],
+  ['handle_5finit_5fdiagnostic_5fa2_647',['handle_init_diagnostic_a2',['../classwindow_1_1Window.html#a726350379dee5bfbeb05887320494a98',1,'window::Window']]],
+  ['handle_5fnew_5fconnection_648',['handle_new_connection',['../classtcp__server_1_1TCPServer.html#add0a4c80f21565948fbbfdfceb213ccb',1,'tcp_server::TCPServer']]],
+  ['handle_5fnew_5fdata_649',['handle_new_data',['../classdiagnostic__plot_1_1DiagnosticPlotWidget.html#a92fce8541b7400aac860a7572dfbfdd8',1,'diagnostic_plot::DiagnosticPlotWidget']]],
+  ['handle_5freal_5ftime_5frefresh_650',['handle_real_time_refresh',['../classwindow_1_1Window.html#abcf6b50cfdda5cfeac7ef377ff669679',1,'window::Window']]],
+  ['handle_5fremote_5fio_5ferror_651',['handle_remote_io_error',['../classwindow_1_1Window.html#a7380db29220dcb7f91dac6d27a0a7c5a',1,'window::Window']]],
+  ['handle_5fsend_5fcommand_5fsignal_652',['handle_send_command_signal',['../classtcp__server_1_1TCPServer.html#af14b4a39f8049f3e145d6a94c7a04c08',1,'tcp_server::TCPServer']]],
+  ['handle_5fsubmit_5fbutton_5fclicked_653',['handle_submit_button_clicked',['../classcreate__stress__scenario__dialog_1_1CreateStressScenarioDialog.html#a54941fb15bdb63668f1e6fe7c046eacf',1,'create_stress_scenario_dialog::CreateStressScenarioDialog']]],
+  ['handle_5ftcp_5fclient_5fconnect_654',['handle_tcp_client_connect',['../classwindow_1_1Window.html#ae184c94145e0cd0b23b306e23ba9f0db',1,'window::Window']]],
+  ['handle_5ftcp_5fclient_5fdisconnect_655',['handle_tcp_client_disconnect',['../classwindow_1_1Window.html#a7893e8a73c9631566cd7e3193a063537',1,'window::Window']]],
+  ['handle_5fudp_5fclient_5fmessage_656',['handle_udp_client_message',['../classwindow_1_1Window.html#a28d9ef34492cf212a2475adcfc0899f6',1,'window::Window']]],
+  ['handle_5fupdate_5fui_5fsignal_657',['handle_update_ui_signal',['../classwindow_1_1Window.html#ab9e9398f8ce7a5e26b6280cc3ba759ad',1,'window::Window']]]
 ];

@@ -69,7 +69,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">convert.py File Reference</div>  </div>
 </div><!--header-->
@@ -88,6 +89,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a616fb6e28f85536925f6c8ac739ac1b0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a616fb6e28f85536925f6c8ac739ac1b0">bytes_to_tec_current</a> (int b1, int b0)</td></tr>
 <tr class="memdesc:a616fb6e28f85536925f6c8ac739ac1b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts bytes that represent TEC current to the actual TEC current value.  <a href="namespaceconvert.html#a616fb6e28f85536925f6c8ac739ac1b0">More...</a><br /></td></tr>
 <tr class="separator:a616fb6e28f85536925f6c8ac739ac1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc7bcf2363621396cbf5ec6443385d1"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a2dc7bcf2363621396cbf5ec6443385d1">float_to_signed_twos_complement_bytes</a> (float number)</td></tr>
+<tr class="memdesc:a2dc7bcf2363621396cbf5ec6443385d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a number in the range [-127.996, 127.996] into two bytes, b1.b0 using signed two's complement.  <a href="namespaceconvert.html#a2dc7bcf2363621396cbf5ec6443385d1">More...</a><br /></td></tr>
+<tr class="separator:a2dc7bcf2363621396cbf5ec6443385d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd4527d18e2db92682649a5b6d9466f"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a0bd4527d18e2db92682649a5b6d9466f">float_to_unsigned_decimal_bytes</a> (float number)</td></tr>
+<tr class="memdesc:a0bd4527d18e2db92682649a5b6d9466f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a number in the range [0, 65535] to a sixteen bit unsigned decimal representation b1b0.  <a href="namespaceconvert.html#a0bd4527d18e2db92682649a5b6d9466f">More...</a><br /></td></tr>
+<tr class="separator:a0bd4527d18e2db92682649a5b6d9466f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a807dfb71fa269a62246ff631aadfe215"><td class="memItemLeft" align="right" valign="top">Decimal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a807dfb71fa269a62246ff631aadfe215">ieee754_to_decimal</a> (int b3, int b2, int b1, int b0)</td></tr>
 <tr class="memdesc:a807dfb71fa269a62246ff631aadfe215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes 4 bytes in IEEE 754 floating point format and converts it into a floating point number as per the IEEE 754 specification.  <a href="namespaceconvert.html#a807dfb71fa269a62246ff631aadfe215">More...</a><br /></td></tr>
 <tr class="separator:a807dfb71fa269a62246ff631aadfe215"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -100,6 +107,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a6fe39590f712a5b569351d266c79e965"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a6fe39590f712a5b569351d266c79e965">temperature_bytes_to_signed_twos_complement_decimal</a> (int b1, int b0)</td></tr>
 <tr class="memdesc:a6fe39590f712a5b569351d266c79e965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes in 2 bytes, formatted as b1.b0 and returns the signed two's complement decimal equivalent.  <a href="namespaceconvert.html#a6fe39590f712a5b569351d266c79e965">More...</a><br /></td></tr>
 <tr class="separator:a6fe39590f712a5b569351d266c79e965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0512b555cdde870461922a7abf307a5c"><td class="memItemLeft" align="right" valign="top">List[int]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a0512b555cdde870461922a7abf307a5c">unsigned_decimal_to_bytes</a> (Decimal number)</td></tr>
+<tr class="memdesc:a0512b555cdde870461922a7abf307a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a number in the range [0, 255.9961] into two bytes, b1.b0.  <a href="namespaceconvert.html#a0512b555cdde870461922a7abf307a5c">More...</a><br /></td></tr>
+<tr class="separator:a0512b555cdde870461922a7abf307a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2488b3fc0cf41eafdb84b8dfd6af5547"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#a2488b3fc0cf41eafdb84b8dfd6af5547">b0</a></td></tr>
+<tr class="separator:a2488b3fc0cf41eafdb84b8dfd6af5547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79bcddb60b32e4a1c786cbd7b50ab5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconvert.html#ab79bcddb60b32e4a1c786cbd7b50ab5e">b1</a></td></tr>
+<tr class="separator:ab79bcddb60b32e4a1c786cbd7b50ab5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides methods to convert individual bytes to different formats. </p>
@@ -112,6 +129,9 @@ Author</h1>
 Modification History</h1>
 <ul>
 <li>Modified on 07/29/2021 by Connor DeCamp</li>
+<li>Modified on 09/13/2021 by Connor DeCamp</li>
+<li>Modified on 10/14/2021 by Connor DeCamp</li>
+<li>Modified on 11/04/2021 by Connor DeCamp</li>
 </ul>
 <p>See SFF-8472 for tables that determine what each value means in the memory map. </p>
 </div></div><!-- contents -->
