@@ -1,17 +1,19 @@
 var searchData=
 [
-  ['selected_5fdisplay_5fmode_340',['selected_display_mode',['../classmemory__map__dialog_1_1MemoryMapDialog.html#a88d3dfd21d6b06ea932fc44dd81b02a6',1,'memory_map_dialog::MemoryMapDialog']]],
-  ['selected_5fmemory_5fpage_341',['selected_memory_page',['../classmemory__map__dialog_1_1MemoryMapDialog.html#abbdb2da15205c9102973c63ac787908b',1,'memory_map_dialog::MemoryMapDialog']]],
-  ['selected_5fsfp_5fid_342',['selected_sfp_id',['../classcreate__stress__scenario__dialog_1_1CreateStressScenarioDialog.html#ae878e4f10e17fb20a9581abb9ba1452e',1,'create_stress_scenario_dialog.CreateStressScenarioDialog.selected_sfp_id()'],['../classmemory__map__dialog_1_1MemoryMapDialog.html#ae878e4f10e17fb20a9581abb9ba1452e',1,'memory_map_dialog.MemoryMapDialog.selected_sfp_id()']]],
-  ['send_5fcommand_343',['send_command',['../classtcp__server_1_1TCPServer.html#af21dea8b8b7e6d7487b3326780818c7c',1,'tcp_server::TCPServer']]],
-  ['send_5fcommand_5ffrom_5fui_344',['send_command_from_ui',['../classnetwork__threads_1_1TcpServerThread.html#a43bcaf49a63cf00705f843e6e32a1963',1,'network_threads::TcpServerThread']]],
-  ['send_5fcommand_5fsignal_345',['send_command_signal',['../classwindow_1_1Window.html#af207d915a8c8d75d61319b1e3e399d47',1,'window::Window']]],
-  ['send_5fheartbeats_346',['send_heartbeats',['../classtcp__server_1_1TCPServer.html#aebe50301ea4d617952b3cdf15bb7c4fe',1,'tcp_server::TCPServer']]],
+  ['selected_5fdisplay_5fmode_338',['selected_display_mode',['../classmemory__map__dialog_1_1MemoryMapDialog.html#a88d3dfd21d6b06ea932fc44dd81b02a6',1,'memory_map_dialog::MemoryMapDialog']]],
+  ['selected_5fmemory_5fpage_339',['selected_memory_page',['../classmemory__map__dialog_1_1MemoryMapDialog.html#abbdb2da15205c9102973c63ac787908b',1,'memory_map_dialog::MemoryMapDialog']]],
+  ['selected_5fsfp_5fid_340',['selected_sfp_id',['../classcreate__stress__scenario__dialog_1_1CreateStressScenarioDialog.html#ae878e4f10e17fb20a9581abb9ba1452e',1,'create_stress_scenario_dialog.CreateStressScenarioDialog.selected_sfp_id()'],['../classmemory__map__dialog_1_1MemoryMapDialog.html#ae878e4f10e17fb20a9581abb9ba1452e',1,'memory_map_dialog.MemoryMapDialog.selected_sfp_id()']]],
+  ['selected_5fstress_5ftype_341',['selected_stress_type',['../classcreate__stress__scenario__dialog_1_1CreateStressScenarioDialog.html#ae94eb5c0967d842dac72204767885664',1,'create_stress_scenario_dialog::CreateStressScenarioDialog']]],
+  ['send_5fcommand_342',['send_command',['../classtcp__server_1_1TCPServer.html#af21dea8b8b7e6d7487b3326780818c7c',1,'tcp_server::TCPServer']]],
+  ['send_5fcommand_5fsignal_343',['send_command_signal',['../classwindow_1_1Window.html#af207d915a8c8d75d61319b1e3e399d47',1,'window::Window']]],
+  ['send_5fheartbeats_344',['send_heartbeats',['../classtcp__server_1_1TCPServer.html#aebe50301ea4d617952b3cdf15bb7c4fe',1,'tcp_server::TCPServer']]],
+  ['send_5frun_5fcommand_345',['send_run_command',['../classrun__stress__dialog_1_1RunStressDialog.html#a45b16cb1a4ccbe5448e5fad2ab9889e2',1,'run_stress_dialog::RunStressDialog']]],
+  ['send_5fstress_5frecording_346',['send_stress_recording',['../classwindow_1_1Window.html#a3687766cd77a1e4e456807771d7c1376',1,'window::Window']]],
   ['separator_5fstr_347',['separator_str',['../namespacetest__sfp__methods.html#a5d8bb051b16324b579e804754b6b194b',1,'test_sfp_methods']]],
   ['server_348',['server',['../classtcp__server_1_1TCPServer.html#a4acfaa4e2d9b21de60c9a6fc63cfaa3a',1,'tcp_server::TCPServer']]],
   ['set_5fsocket_5fptr_349',['set_socket_ptr',['../classtcp__server_1_1DeviceConnection.html#a445741460881f448f509543a0f7a3f75',1,'tcp_server::DeviceConnection']]],
   ['setup_350',['setUp',['../classtest__sfp__methods_1_1TestSFPMethods.html#a26b1b5aaa859d024cb7114cc1d4c1fd2',1,'test_sfp_methods::TestSFPMethods']]],
-  ['setupui_351',['setupUi',['../classcreate__stress__scenario__dialog__autogen_1_1Ui__Dialog.html#a7d14ae08299c265b9771c447ff60ed37',1,'create_stress_scenario_dialog_autogen.Ui_Dialog.setupUi()'],['../classmemory__map__dialog__autogen_1_1Ui__Dialog.html#a7d14ae08299c265b9771c447ff60ed37',1,'memory_map_dialog_autogen.Ui_Dialog.setupUi()'],['../classmonitor__dialog__autogen_1_1Ui__Dialog.html#a7d14ae08299c265b9771c447ff60ed37',1,'monitor_dialog_autogen.Ui_Dialog.setupUi()'],['../classwindow__autogen_1_1Ui__MainWindow.html#a2f8fe48a46685da67e1a2e1bfcb5bde7',1,'window_autogen.Ui_MainWindow.setupUi()']]],
+  ['setupui_351',['setupUi',['../classcreate__stress__scenario__dialog__autogen_1_1Ui__Dialog.html#a7d14ae08299c265b9771c447ff60ed37',1,'create_stress_scenario_dialog_autogen.Ui_Dialog.setupUi()'],['../classmemory__map__dialog__autogen_1_1Ui__Dialog.html#a7d14ae08299c265b9771c447ff60ed37',1,'memory_map_dialog_autogen.Ui_Dialog.setupUi()'],['../classmonitor__dialog__autogen_1_1Ui__Dialog.html#a7d14ae08299c265b9771c447ff60ed37',1,'monitor_dialog_autogen.Ui_Dialog.setupUi()'],['../classrun__stress__dialog__autogen_1_1Ui__Dialog.html#a7d14ae08299c265b9771c447ff60ed37',1,'run_stress_dialog_autogen.Ui_Dialog.setupUi()'],['../classwindow__autogen_1_1Ui__MainWindow.html#a2f8fe48a46685da67e1a2e1bfcb5bde7',1,'window_autogen.Ui_MainWindow.setupUi()']]],
   ['sfp_352',['SFP',['../classsfp_1_1SFP.html',1,'SFP'],['../namespacesfp.html',1,'sfp'],['../classtest__sfp__methods_1_1TestSFPMethods.html#ae2146a813ef5561e60fdd864022c7e68',1,'test_sfp_methods.TestSFPMethods.sfp()']]],
   ['sfp_2epy_353',['sfp.py',['../sfp_8py.html',1,'']]],
   ['sizeof_5fh_354',['SIZEOF_H',['../namespacemessage.html#a7fabf25094b4bb18c7d7850f862378d8',1,'message']]],
@@ -24,6 +26,8 @@ var searchData=
   ['statusbar_361',['statusbar',['../classwindow__autogen_1_1Ui__MainWindow.html#a3a4d3912c83b98a74b844cb010268c9a',1,'window_autogen::Ui_MainWindow']]],
   ['stop_5ftimer_362',['stop_timer',['../classtcp__server_1_1KeepaliveTimer.html#ab14416921456facdc6ecb948fcf0ee87',1,'tcp_server::KeepaliveTimer']]],
   ['stress_5fdialog_363',['stress_dialog',['../classmemory__map__dialog_1_1MemoryMapDialog.html#a4bf0140234272ef8f21228717109e2a0',1,'memory_map_dialog::MemoryMapDialog']]],
-  ['submitbutton_364',['submitButton',['../classcreate__stress__scenario__dialog__autogen_1_1Ui__Dialog.html#a54367309dc785003a6a17cb2d43c7dd4',1,'create_stress_scenario_dialog_autogen::Ui_Dialog']]],
-  ['supportedparameters_365',['SupportedParameters',['../classcreate__stress__scenario__dialog_1_1SupportedParameters.html',1,'create_stress_scenario_dialog']]]
+  ['stress_5ffail_364',['STRESS_FAIL',['../classmessage_1_1MessageCode.html#afc485c2129530521711169105ac12805',1,'message::MessageCode']]],
+  ['stress_5ffinish_365',['STRESS_FINISH',['../classmessage_1_1MessageCode.html#a9b4daa4bfcf20666d087af4eaee9137f',1,'message::MessageCode']]],
+  ['submitbutton_366',['submitButton',['../classcreate__stress__scenario__dialog__autogen_1_1Ui__Dialog.html#a54367309dc785003a6a17cb2d43c7dd4',1,'create_stress_scenario_dialog_autogen::Ui_Dialog']]],
+  ['supportedparameters_367',['SupportedParameters',['../classcreate__stress__scenario__dialog_1_1SupportedParameters.html',1,'create_stress_scenario_dialog']]]
 ];

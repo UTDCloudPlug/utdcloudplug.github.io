@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['print_5fsfp_5fmemory_694',['print_sfp_memory',['../namespacetest__sfp__methods.html#a3df0471398f76e40f14b3de86b622c9f',1,'test_sfp_methods']]],
-  ['process_5fclient_5fmessage_695',['process_client_message',['../classtcp__server_1_1TCPServer.html#a599e8d860fb47e8df9816a70e4f6e266',1,'tcp_server::TCPServer']]]
+  ['read_5fsfp_5fmemory_5fmap_693',['read_sfp_memory_map',['../namespacecreate__sfp__database.html#a9fc5fb369210f24c55124de007ad5999',1,'create_sfp_database']]],
+  ['refresh_5fstress_5fscenario_5ftable_694',['refresh_stress_scenario_table',['../classmemory__map__dialog_1_1MemoryMapDialog.html#af478da21deb2213869408ff194b33923',1,'memory_map_dialog::MemoryMapDialog']]],
+  ['restart_5ftimer_695',['restart_timer',['../classtcp__server_1_1DeviceConnection.html#a230284f9e51c7649e60ac0b9ccea85a6',1,'tcp_server.DeviceConnection.restart_timer()'],['../classtcp__server_1_1KeepaliveTimer.html#a230284f9e51c7649e60ac0b9ccea85a6',1,'tcp_server.KeepaliveTimer.restart_timer()']]],
+  ['retranslateui_696',['retranslateUi',['../classcreate__stress__scenario__dialog__autogen_1_1Ui__Dialog.html#a78df35c38874643003ac7e48edb5217e',1,'create_stress_scenario_dialog_autogen.Ui_Dialog.retranslateUi()'],['../classmemory__map__dialog__autogen_1_1Ui__Dialog.html#a78df35c38874643003ac7e48edb5217e',1,'memory_map_dialog_autogen.Ui_Dialog.retranslateUi()'],['../classmonitor__dialog__autogen_1_1Ui__Dialog.html#a78df35c38874643003ac7e48edb5217e',1,'monitor_dialog_autogen.Ui_Dialog.retranslateUi()'],['../classrun__stress__dialog__autogen_1_1Ui__Dialog.html#a78df35c38874643003ac7e48edb5217e',1,'run_stress_dialog_autogen.Ui_Dialog.retranslateUi()'],['../classwindow__autogen_1_1Ui__MainWindow.html#a6c4d7f2e91c58fb8a02607e7db8d290d',1,'window_autogen.Ui_MainWindow.retranslateUi()']]]
 ];

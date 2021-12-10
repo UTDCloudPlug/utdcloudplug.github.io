@@ -74,6 +74,7 @@ $(function() {
 , <a class="el" href="classdiagnostic__plot_1_1DiagnosticPlotWidget.html#a39d165427992dd2720f91929a88cde17">DiagnosticPlotWidget</a>
 , <a class="el" href="classmemory__map__dialog_1_1MemoryMapDialog.html#a39d165427992dd2720f91929a88cde17">MemoryMapDialog</a>
 , <a class="el" href="classmonitor__dialog_1_1DiagnosticMonitorDialog.html#a39d165427992dd2720f91929a88cde17">DiagnosticMonitorDialog</a>
+, <a class="el" href="classrun__stress__dialog_1_1RunStressDialog.html#a2c751647a78f65f5d9af701621b5186f">RunStressDialog</a>
 , <a class="el" href="classsfp_1_1SFP.html#a2ac18d1520ba5eb32efd96a12c0e54ad">SFP</a>
 , <a class="el" href="classsql__connection_1_1SQLConnection.html#ae64f0875afe3067b97ba370b354b9213">SQLConnection</a>
 , <a class="el" href="classtcp__server_1_1DeviceConnection.html#aa589f5498901a854f20197dbf6588414">DeviceConnection</a>
@@ -139,8 +140,8 @@ $(function() {
 <li>cloudplug_reprogram_button_handler()
 : <a class="el" href="classwindow_1_1Window.html#a0fe5d3c64b53194ab7871b317577e6b8">Window</a>
 </li>
-<li>connect_signal_slots()
-: <a class="el" href="classwindow_1_1Window.html#a84dfe04b53432a4aa49cc9ae0ee30b14">Window</a>
+<li>connect_button_signals()
+: <a class="el" href="classwindow_1_1Window.html#acac10b00b63216f4bc9ed12d5f9f7ae6">Window</a>
 </li>
 </ul>
 
@@ -157,22 +158,6 @@ $(function() {
 </li>
 <li>do_broadcast()
 : <a class="el" href="classnetwork__threads_1_1BroadcastWorker.html#aa2e2693ba886dd434752661a01c44489">BroadcastWorker</a>
-</li>
-</ul>
-
-
-<h3><a id="index_e"></a>- e -</h3><ul>
-<li>emit_client_connected_signal()
-: <a class="el" href="classnetwork__threads_1_1TcpServerThread.html#a00d369e3227b334d69c1fdad2b7253e6">TcpServerThread</a>
-</li>
-<li>emit_client_disconnected_signal()
-: <a class="el" href="classnetwork__threads_1_1TcpServerThread.html#af07284172bd5b446fde4e720f0ae1003">TcpServerThread</a>
-</li>
-<li>emit_log_signal()
-: <a class="el" href="classnetwork__threads_1_1TcpServerThread.html#a18c508f548ba6926fdcdc8be144531b4">TcpServerThread</a>
-</li>
-<li>emit_update_ui_signal()
-: <a class="el" href="classnetwork__threads_1_1TcpServerThread.html#afe05dfef74602b1fde1b4c2bd01a9b7d">TcpServerThread</a>
 </li>
 </ul>
 
@@ -477,6 +462,9 @@ $(function() {
 <li>handle_send_command_signal()
 : <a class="el" href="classtcp__server_1_1TCPServer.html#af14b4a39f8049f3e145d6a94c7a04c08">TCPServer</a>
 </li>
+<li>handle_stress_recording_clicked()
+: <a class="el" href="classwindow_1_1Window.html#a754fbea2e77bafe8437b6498ff263401">Window</a>
+</li>
 <li>handle_submit_button_clicked()
 : <a class="el" href="classcreate__stress__scenario__dialog_1_1CreateStressScenarioDialog.html#a54941fb15bdb63668f1e6fe7c046eacf">CreateStressScenarioDialog</a>
 </li>
@@ -496,22 +484,8 @@ $(function() {
 
 
 <h3><a id="index_i"></a>- i -</h3><ul>
-<li>init_cloudplug_connection()
-: <a class="el" href="classnetwork__threads_1_1TcpServerThread.html#a90d4d69e5406f7a953661462a136d5c7">TcpServerThread</a>
-</li>
-<li>init_dock_connection()
-: <a class="el" href="classnetwork__threads_1_1TcpServerThread.html#a81745cea58f5731bfc0b456b69ce1501">TcpServerThread</a>
-</li>
 <li>initialize_table_values()
 : <a class="el" href="classmemory__map__dialog_1_1MemoryMapDialog.html#afc928ea7ae2e780551ca505a0fdebee7">MemoryMapDialog</a>
-</li>
-</ul>
-
-
-<h3><a id="index_m"></a>- m -</h3><ul>
-<li>main_window_close_event_handler()
-: <a class="el" href="classnetwork__threads_1_1BroadcastThread.html#a802c136d1d15f4c0c1409a357166d463">BroadcastThread</a>
-, <a class="el" href="classnetwork__threads_1_1TcpServerThread.html#a802c136d1d15f4c0c1409a357166d463">TcpServerThread</a>
 </li>
 </ul>
 
@@ -522,13 +496,6 @@ $(function() {
 </li>
 <li>open_session()
 : <a class="el" href="classtcp__server_1_1TCPServer.html#aa6fa56161a55e7c6cf43d660d8738575">TCPServer</a>
-</li>
-</ul>
-
-
-<h3><a id="index_p"></a>- p -</h3><ul>
-<li>process_client_message()
-: <a class="el" href="classtcp__server_1_1TCPServer.html#a599e8d860fb47e8df9816a70e4f6e266">TCPServer</a>
 </li>
 </ul>
 
@@ -545,10 +512,6 @@ $(function() {
 : <a class="el" href="classcreate__stress__scenario__dialog__autogen_1_1Ui__Dialog.html#a78df35c38874643003ac7e48edb5217e">Ui_Dialog</a>
 , <a class="el" href="classwindow__autogen_1_1Ui__MainWindow.html#a6c4d7f2e91c58fb8a02607e7db8d290d">Ui_MainWindow</a>
 </li>
-<li>run()
-: <a class="el" href="classnetwork__threads_1_1BroadcastThread.html#ad22709b2e67308af35f55680d5a026e0">BroadcastThread</a>
-, <a class="el" href="classnetwork__threads_1_1TcpServerThread.html#ad22709b2e67308af35f55680d5a026e0">TcpServerThread</a>
-</li>
 </ul>
 
 
@@ -556,11 +519,14 @@ $(function() {
 <li>send_command()
 : <a class="el" href="classtcp__server_1_1TCPServer.html#af21dea8b8b7e6d7487b3326780818c7c">TCPServer</a>
 </li>
-<li>send_command_from_ui()
-: <a class="el" href="classnetwork__threads_1_1TcpServerThread.html#a43bcaf49a63cf00705f843e6e32a1963">TcpServerThread</a>
-</li>
 <li>send_heartbeats()
 : <a class="el" href="classtcp__server_1_1TCPServer.html#aebe50301ea4d617952b3cdf15bb7c4fe">TCPServer</a>
+</li>
+<li>send_run_command()
+: <a class="el" href="classrun__stress__dialog_1_1RunStressDialog.html#a45b16cb1a4ccbe5448e5fad2ab9889e2">RunStressDialog</a>
+</li>
+<li>send_stress_recording()
+: <a class="el" href="classwindow_1_1Window.html#a3687766cd77a1e4e456807771d7c1376">Window</a>
 </li>
 <li>set_socket_ptr()
 : <a class="el" href="classtcp__server_1_1DeviceConnection.html#a445741460881f448f509543a0f7a3f75">DeviceConnection</a>
